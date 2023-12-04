@@ -33,3 +33,19 @@ nav img{
 .fa-bars{
     padding-right: 1rem;
 }
+/*Small screens*/
+@media (min-width: 430px){
+}
+/*Medium screens*/
+@media (min-width: 744px) {
+}
+/*Large screens*/
+@media (min-width: 1024px){
+    
+}
+@media (min-width: 1280px){
+}
+/*Xtra large screens*/
+@media (min-width:1440px){
+
+}
