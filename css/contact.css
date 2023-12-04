@@ -1,0 +1,35 @@
+:root{
+    --background-color:#FFFFFF;
+    --font-color:#000000;
+    --header-one-color:#FFDAB9;
+    --header-two-color:#E6E6FA;
+    --footer-color:#E6E6FA;
+    --category-body:#F8A166;
+    --category-space:#FF8888;
+    --category-vr:#38C3FF;
+    --category-climate:#FCFF79;
+    --icon-color:#014284;
+    --button-one:#FF981C;
+    --button-two:#4CAF50;
+    --botton-one-active:#FFBD6C;
+    --button-two-active:#79E47E;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+nav img{
+    padding-left: 1rem;
+}
+.fa-magnifying-glass{
+    padding-right: 1rem;
+}
+.fa-bars{
+    padding-right: 1rem;
+}
