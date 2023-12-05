@@ -44,9 +44,21 @@ footer {
     color: #000000;
     padding: 10px;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto auto;
     align-items: start;
     justify-content: space-between;
+}
+
+.left-content, .right-content {
+    max-width: 300px;
+}
+
+.address-div,
+.telephone-div,
+.follow-us-div,
+.privacy-div {
+    max-width: 100%;
 }
 
 .logo-footer {
@@ -60,15 +72,24 @@ footer {
     grid-row: 2;
 }
 
+.left-content span {
+    display: block;
+    line-height: 1.5;
+}
+
+.address-div {
+    height: 120px;
+    margin-bottom: 32px;
+}
+
+.telephone-div {
+    height: 48px;
+    margin-bottom: 32px;
+}
+
 .right-content {
     grid-column: 3;
     grid-row: 2;
-}
-
-.left-content span {
-    display: block;
-    margin-bottom: 32px;
-    line-height: 1.5;
 }
 
 .right-content span {
@@ -76,8 +97,14 @@ footer {
     line-height: 1.5;
 }
 
-.span-two {
-    display: inline-block;
+.right-content .follow-us-div {
+    height: 120px;
+    margin-bottom: 32px;
+}
+
+.privacy-div {
+    height: 48px;
+    margin-bottom: 32px;
 }
 
 .right-content i {
@@ -92,6 +119,14 @@ footer {
     margin-right: 0;
 }
 
+.bottom-text {
+    grid-column: span 2;
+    grid-row: 3;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Small screens*/
 @media (min-width: 430px){
