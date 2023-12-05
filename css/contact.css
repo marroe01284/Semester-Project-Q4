@@ -16,6 +16,112 @@ nav img{
 .fa-bars{
     padding-right: 1rem;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-two-color);
+    border-radius: .5rem;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    line-height: 46px;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-top: 4px;
+    padding-left: .5rem;
+}
+.car{
+    padding-bottom: 2rem;
+}
+.public-container{
+    background-color: var(--header-one-color);
+   height: 570px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.form-contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--header-one-color);
+    height: 401px;
+}
+.mail, .chat-head{
+    padding: 1rem 0;
+}
+.send{
+    width: 115px;
+    height: 29px;
+    background-color: var(--button-two);
+    color:var(--background-color) ;
+    border: none;
+    border-radius: .5rem;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+} 
+.chat-container{
+    padding-top: 1rem;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--header-one-color);
+    height: 206px;
+}
+input{
+    height: 2rem;
+    width: 217px;
+    border-radius: 4px;
+    border: none;
+}
+textarea{
+    border: none;
+    border-radius: 4px;
+}
+.chat p {
+    padding: 0 0 2rem 0;
+}
+.start-chat{
+    width: 204px;
+    height: 46px;
+    background-color: var(--button-two);
+    color:var(--background-color) ;
+    border: none;
+    border-radius: .5rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
 /*Small screens*/
 @media (min-width: 430px){
 }
