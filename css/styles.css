@@ -14,25 +14,85 @@
     --botton-one-active:#FFBD6C;
     --button-two-active:#79E47E;
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
 }
-nav img{
+
+nav img {
     padding-left: 1rem;
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     padding-right: 1rem;
 }
-.fa-bars{
+
+.fa-bars {
     padding-right: 1rem;
 }
+
+footer {
+    background-color:#E6E6FA;
+    color: #000000;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 32px;
+}
+
+.left-content {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.right-content {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.left-content span {
+    display: block;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+.right-content span {
+    display: block;
+    line-height: 1.5;
+}
+
+.span-two {
+    display: inline-block;
+}
+
+.right-content i {
+    font-size: 20px;
+}
+
+.span-one i {
+    margin-right: 4px;
+}
+
+.span-one i:last-child {
+    margin-right: 0;
+}
+
+
 /*Small screens*/
 @media (min-width: 430px){
 }
@@ -47,5 +107,4 @@ nav img{
 }
 /*Xtra large screens*/
 @media (min-width:1440px){
-
 }
