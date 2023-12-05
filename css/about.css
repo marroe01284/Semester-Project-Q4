@@ -16,6 +16,50 @@ nav img{
 .fa-bars{
     padding-right: 1rem;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-one-color);
+    border-radius: .5rem;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+h4{
+    font-weight: 700;
+    padding-top: .5rem;
+    padding-left: 1rem;
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-top: 4px;
+    padding-left: 1rem;
+}
+.social{
+    padding-top: .5rem;
+}
+i{
+    padding-left: 1rem;
+}
 /*Small screens*/
 @media (min-width: 430px){
 }
