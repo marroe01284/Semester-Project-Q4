@@ -12,13 +12,28 @@
 <body>
     <header>
         <nav>
-            <img src="images/mobile/open-science-735787 1.png" alt="logo of museum">
-            <div class="logo">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-bars"></i>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="museum-logo">
+                <a href="index.html"><img src="images/mobile/open-science-735787 1.png" alt="logo of the museum"></a>
+                <ul>
+                    <!-- <li><img src="images/mobile/open-science-735787 1.png" alt="image of our logo"></li> -->
+                    <li class="hide-on-mobile"><a href="index.html">Home</a></li>
+                    <li class="hide-on-mobile"><a href="program.html">Program</a></li>
+                    <li class="hide-on-mobile"><a href="tickets.html">Tickets</a></li>
+                    <li class="hide-on-mobile"><a href="about.html">About</a></li>
+                    <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a></li>
+                </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container-h">
             <div class="header-container">
                 <h1>
                     Ticket Information
@@ -27,50 +42,108 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="ticket-info-one">
-                <h3>
-                    Family Package
-                </h3>
-                <p>2 Adults + 2 Children $40</p>
-                <p>Additional Child $5 each</p>
-                <h3>
-                    Annual Pass
-                </h3>
-                <p>unlimited entry for one year</p>
-                <p>Adult $60</p>
-                <p>Children $30</p>
-                <h3>Special Events Ticket</h3>
-                <p>Entry to specific events </p>
-                <p>workshops or presentations</p>
-                <p>Prices vary, check event details</p>
-                <h3>Group Rates</h3>
-                <p>Groups of 10 or more</p>
-                <p>Contact us for customized pricing</p>    
+        <div class="media-container">
+
+            <div class="container">
+                <div class="ticket-info-one">
+                    <h3>
+                        Family Package
+                    </h3>
+                    <p>2 Adults + 2 Children $40</p>
+                    <p>Additional Child $5 each</p>
+                    <h3>
+                        Annual Pass
+                    </h3>
+                    <p>unlimited entry for one year</p>
+                    <p>Adult $60</p>
+                    <p>Children $30</p>
+                    <h3>Special Events Ticket</h3>
+                    <p>Entry to specific events </p>
+                    <p>workshops or presentations</p>
+                    <p>Prices vary, check event details</p>
+                    <h3>Group Rates</h3>
+                    <p>Groups of 10 or more</p>
+                    <p>Contact us for customized pricing</p>    
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="ticket-info-two">
-                <h3>General Admission</h3>
-                <p>Adults $15</p>
-                <p>Children Ages 6-12 $8</p>
-                <p>Children under 6 free</p>
-                <h3>Children under 5 years</h3>
-                <p>free Admission with a paying adult</p>
-                <h3>student/senior discount</h3>
-                <p>students (with valid ID) $10</p>
-                <p>Seniors(65+) $12</p>
-                <h3>VIP Experience</h3>
-                <p>Exclusive Tours</p>
-                <p>Premium Amenities</p>
-                <p>$25 per person</p>
+            <div class="container">
+                <div class="ticket-info-two">
+                    <h3>General Admission</h3>
+                    <p>Adults $15</p>
+                    <p>Children Ages 6-12 $8</p>
+                    <p>Children under 6 free</p>
+                    <h3>Children under 5 years</h3>
+                    <p>free Admission with a paying adult</p>
+                    <h3>student/senior discount</h3>
+                    <p>students (with valid ID) $10</p>
+                    <p>Seniors(65+) $12</p>
+                    <h3>VIP Experience</h3>
+                    <p>Exclusive Tours</p>
+                    <p>Premium Amenities</p>
+                    <p>$25 per person</p>
+                </div>
             </div>
         </div>
         </main>
         <section></section>
 
-    <footer>
-      
-    </footer>
+        <footer>
+            <div class="logo-footer">
+                <img src="images/mobile/open-science-735787 1.png" alt="logo of museum">
+            </div>
+            <div class="left-content">
+                <div class="address-div">
+                    <span>
+                    <strong>Address<br></strong>
+                    Sirkulasjons veien 19<br>
+                    Postboks 4590,<br>
+                    Frogner<br>
+                    0355 Oslo<br>
+                </span>
+                </div>
+                <div class="telephone-div">
+                    <span>
+                    <strong>Telephone<br></strong>
+                    <span class="telephone">(+47) 12 34 56 78<br></span>
+                </span>
+                </div>
+                <span>
+                    <strong>Email address<br></strong>
+                    <span class="post">Post@galaxygenius.com</span>
+                </span>
+            </div>
+    
+            <div class="right-content">
+                <div class="follow-us-div">
+                    <span class="span-one">
+                    <strong>Follow us<br></strong>
+                    <i class="fa-brands fa-square-facebook" style="color: #000000;"></i>
+                    <i class="fa-brands fa-square-instagram" style="color: #000000;"></i>
+                    <i class="fa-brands fa-square-x-twitter" style="color: #000000;"></i>
+                    <i class="fa-brands fa-square-snapchat" style="color: #000000;"></i>
+                </span>
+                </div>
+                <div class="privacy-div">
+                    <span class="span-two">
+                    Privacy
+                </span>
+                </div>
+                <span class="terms">Terms and conditions</span>
+            </div>
+    
+            <div class="bottom-text">
+                <span>2023 © GalaxyGenius in Oslo</span>
+            </div>
+        </footer>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector(".sidebar")
+                sidebar.style.display = "flex"
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector(".sidebar")
+                sidebar.style.display = "none"
+            }
+        </script>
 </body>
 </html>
