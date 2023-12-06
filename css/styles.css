@@ -118,15 +118,23 @@ footer {
     font-size: 14px;
 }
 
+.discover-container {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
 .discover {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-one-color);
+    border-radius: 0.5rem;
 }
 
-h1 {
-    height: 66px;
-    width: 320px;
-}
+
 
 /*Small screens*/
 @media (min-width: 430px){
