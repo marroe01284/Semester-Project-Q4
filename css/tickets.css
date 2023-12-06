@@ -59,6 +59,12 @@ nav a:hover{
 .menu-button{
     display: none;
 }
+.container-h{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -226,6 +232,42 @@ footer {
 }
 /*Medium screens*/
 @media (min-width: 744px) {
+    .media-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-container{
+        width: 488px;
+        height: 89px;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 2rem;
+        line-height: 29px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        padding-top: 16px;
+    }
+    .ticket-info-two{
+        width: 347px;
+        height: 586px;
+    }
+    .ticket-info-one{
+        width: 347px;
+        height: 586px;
+    } 
+    
 }
 /*Large screens*/
 @media (min-width: 1024px){
@@ -245,5 +287,37 @@ nav ul{
 }
 /*Xtra large screens*/
 @media (min-width:1440px){
+.header-container{
+    width: 640px;
+    height: 132px;
+    background-color: var(--header-two-color);
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 2rem;
+    line-height: 39px;
+}
+p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-top: 16px;
+}
+.ticket-info-two{
+    width: 530px;
+    height: 888px;
+}
+.ticket-info-one{
+    width: 530px;
+    height: 888px;
+} 
 
+.container{
+    width: 100%;
+}
 }
