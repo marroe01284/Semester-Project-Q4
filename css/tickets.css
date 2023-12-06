@@ -20,6 +20,7 @@ nav img{
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 .header-container{
     display: flex;
@@ -63,7 +64,106 @@ p{
     line-height: 17px;
     padding-top: 4px;
 }
+footer {
+    background-color:#E6E6FA;
+    color: #000000;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto auto;
+    align-items: start;
+    justify-content: space-between;
+}
 
+.left-content, .right-content {
+    max-width: 300px;
+}
+
+.address-div,
+.telephone-div,
+.follow-us-div,
+.privacy-div {
+    max-width: 100%;
+}
+
+.logo-footer {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 32px;
+}
+
+.left-content {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.left-content span {
+    display: block;
+    line-height: 1.5;
+}
+
+.address-div {
+    height: 120px;
+    margin-bottom: 32px;
+}
+
+.telephone-div {
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.post {
+    cursor: pointer;
+}
+
+.right-content {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.right-content span {
+    display: block;
+    line-height: 1.5;
+}
+
+.right-content .follow-us-div {
+    height: 120px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.privacy-div {
+    height: 48px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.terms {
+    cursor: pointer;
+}
+
+.right-content i {
+    font-size: 20px;
+}
+
+.span-one i {
+    margin-right: 4px;
+}
+
+.span-one i:last-child {
+    margin-right: 0;
+}
+
+.bottom-text {
+    grid-column: span 3;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    font-size: 14px;
+}
 /*Small screens*/
 @media (min-width: 430px){
 }
