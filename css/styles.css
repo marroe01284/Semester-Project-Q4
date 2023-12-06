@@ -1,3 +1,4 @@
+
 :root{
     --background-color:#FFFFFF;
     --font-color:#000000;
@@ -140,6 +141,9 @@ footer {
     padding-top: 32px;
     font-size: 14px;
 }
+@import"variables.css";
+@import"reset.css";
+
 
 nav{
     display: flex;
