@@ -175,7 +175,6 @@ footer {
 .news-container-two {
     display: flex;
     justify-content: center;
-    padding: 0 0 1.5rem 0;
 }
 
 .whats-new-header {
@@ -187,30 +186,6 @@ footer {
     background-color: var(--header-two-color);
     border-radius: 0.5rem;
 }
-
-/*.whats-new-container {
-    display: flex;
-    width: 100%;
-    padding: 0 16px 0 16px;
-    gap: 16px;
-}
-
-.whats-new-container .news-item img {
-    display: flex;
-    align-self: flex-start;
-}*/
-
-/*.news-item {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.news-item img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-}*/
 
 .whats-new-grid {
     display: grid;
@@ -257,6 +232,36 @@ footer {
     padding: 8px 52px 16px 52px;
     line-height: 2;
 }
+
+.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+    gap: 20px;
+    padding: 32px 38px 32px 38px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.show-more {
+    width: 184px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*Small screens*/
