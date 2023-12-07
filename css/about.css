@@ -107,6 +107,10 @@ p{
 .contact{
     padding-bottom: 1rem;
 }
+.first-cont{
+    display: none;
+}
+
 
 footer {
     background-color:#E6E6FA;
@@ -233,6 +237,26 @@ footer {
 .hide-tablet{
     display: none;
 }
+.first-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.info-muse{
+    width: 336px;
+}
+.hide-info{
+    display: none;
+}
+.h-container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
 }
 /*Large screens*/
 @media (min-width: 1024px){
@@ -246,6 +270,9 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.first-cont{
+    display: flex;
 }
 }
 @media (min-width: 1280px){
