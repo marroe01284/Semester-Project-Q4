@@ -137,7 +137,7 @@ footer {
 
 .discover-body {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
     gap: 20px;
     padding: 0 38px 32px 38px;
 }
@@ -182,7 +182,14 @@ footer {
 
 .whats-new-container {
     display: flex;
-    gap: 20px;
+    width: 100%;
+    padding: 0 16px 0 16px;
+    gap: 16px;
+}
+
+.whats-new-container .news-item img {
+    display: flex;
+    align-self: flex-start;
 }
 
 .news-item {
@@ -198,6 +205,8 @@ footer {
 }
 
 .news-content {
+    display: block;
+    text-align: left;
     width: 100%;
     flex-grow: 1;
 }
@@ -211,12 +220,22 @@ footer {
 }
 
 .news-container {
+    background-color: var(--header-one-color);
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 16px 0 16px 0;
+}
+
+.news-header h2 {
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+.news-header p {
+    padding: 8px 52px 16px 52px;
+    line-height: 2;
 }
 
 
