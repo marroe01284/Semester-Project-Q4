@@ -160,6 +160,256 @@ footer {
     padding-top: 32px;
     font-size: 14px;
 }
+
+footer {
+    background-color:#E6E6FA;
+    color: #000000;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto auto;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left-content, .right-content {
+    max-width: 300px;
+}
+
+.address-div,
+.telephone-div,
+.follow-us-div,
+.privacy-div {
+    max-width: 100%;
+}
+
+.logo-footer {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 32px;
+}
+
+.left-content {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.left-content span {
+    display: block;
+    line-height: 1.5;
+}
+
+.address-div {
+    height: 120px;
+    margin-bottom: 32px;
+}
+
+.telephone-div {
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.post {
+    cursor: pointer;
+}
+
+.right-content {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.right-content span {
+    display: block;
+    line-height: 1.5;
+}
+
+.right-content .follow-us-div {
+    height: 120px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.privacy-div {
+    height: 48px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.terms {
+    cursor: pointer;
+}
+
+.right-content i {
+    font-size: 20px;
+}
+
+.span-one i {
+    margin-right: 4px;
+}
+
+.span-one i:last-child {
+    margin-right: 0;
+}
+
+.bottom-text {
+    grid-column: span 3;
+    grid-row: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    font-size: 14px;
+}
+
+.discover-container {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-one-color);
+    border-radius: 0.5rem;
+}
+
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+    gap: 20px;
+    padding: 0 38px 32px 38px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media (min-width: 712px) {
+    .discover-body {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    }
+}
+
+@media (min-width: 815px) {
+    .discover-body {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    }
+}
+
+/*@media screen and (max-width: 1111px) {
+    .discover-body {
+        grid-template-columns: repeat(3, minmax(244px, 1fr));
+    }
+}*/
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-container-two {
+    display: flex;
+    justify-content: center;
+}
+
+.whats-new-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-two-color);
+    border-radius: 0.5rem;
+}
+
+.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+    gap: 20px;
+    padding: 0 38px 32px 38px;
+}
+
+.news-content {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.whats-new-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-content h3 {
+    margin: 10px 0;
+}
+
+.news-article {
+    padding-top: 16px;
+}
+
+.news-container {
+    background-color: var(--header-one-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.news-header h2 {
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+.news-header p {
+    padding: 8px 52px 16px 52px;
+    line-height: 2;
+}
+
+.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+    gap: 20px;
+    padding: 32px 38px 32px 38px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.show-more {
+    width: 184px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*Small screens*/
 @media (min-width: 430px){
     .hide-on-mobile{
