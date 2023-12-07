@@ -43,65 +43,76 @@
     </header>
     <main>
         <div class="image">
-            <img src="images/mobile/map-mobile.png" alt="map of our location">
+            <img class="hide-mobile" src="images/tablet/tablet-map.png" alt="map of our location">
+            <img class="hide-tablet" src="images/mobile/map-mobile.png" alt="map of our location">
         </div>
-        <div class="adress">
-            <h3>How to find us</h3>
-            <p>Adress:</p>
-            <p>GalaxyGenius Museum</p>
-            <p>Sirkulasjons veien 19</p>
-            <p>0355 Oslo</p>
-            <p>Postboks 459, Frogner</p>
-        </div>
-        <div class="walking">
-            <h3>Walking/Cycling</h3>
-            <p>Exit Oslo Central Station and head west on Jernbanetorget toward Stortingsgata.
-            Turn left onto Stortingsgata and continue walking.
-            Follow Stortingsgata until you reach Karl Johans gate; turn right onto Karl Johans gate.
-            Walk along Karl Johans gate, passing through the Royal Palace grounds.
-            Continue on Karl Johans gate until you reach the intersection with Inkognitogata.Turn left onto Inkognitogata, and follow it as it becomes Bogstadveien.Keep walking along Bogstadveien until you reach Majorstuen.</p>
-        </div>
-        <div class="car">
-            <h3>Traveling with car</h3>
-            <p>Add the address in to your GPS and you wil find our free parking outside the museum</p>
-        </div>
-        <div class="public-container">
-            <h3>Public Transportiation</h3>
-            <p>Buss, 15 minutes from the central station</p>
-            <p>Buss nr 54 to Majorstuen</p>
-            <p>Buss nr 32 to Ljabru </p>
-            <p>Buss nr 45 to Rikshospitalet</p>
-            <h3>Tram, 10 minutes from the central station</h3>
-            <p>Tram nr 54 to Majorstuen</p>
-            <p>Tram nr 32 to Ljabru</p>
-            <p>Tram nr 45 to Rikshospitalet</p>
-            <h3>Sub-way, 5 minutes from the central station</h3>
-            <p>Metro nr 3 to Majorstuen</p>
-            <p>Metro nr 5 to Kjelsås </p>
-            <p>Metro nr 2 to Holmenkollen</p>
-        </div>
-        <div class="contact">
-            <h2>Contact</h2>
-        </div>
-        <div class="form-contact">
-            <h3 class="mail">E-mail us</h3>
-            <form class="email">
-                <label class="e-mail" for="e-mail"> E-mail adress</label><br>
-                <input type="text" id="e-mail" name="e-mail"><br>
-                <label class="subject" for="subject">Subject</label><br>
-                <input type="text" id="subject" name="subject"><br>
-                <label class="text-box" for="text-box">Tell us anything</label><br>
-                <textarea name="message" id="text-box" cols="30" rows="10"></textarea>
-            </form>
-            <button class="send">Send</button>
-        </div>
-        <div class="chat-container">
-            <div class="chat">
-                <h3 class="chat-head">Chat with us</h3>
-                <p>We are online from 10-22</p>
-                <button class="start-chat">Start Chat</button>
+        <div class="transport-container">
+
+            <div class="find-container">
+                <div class="adress">
+                    <h3>How to find us</h3>
+                    <p>Adress:</p>
+                    <p>GalaxyGenius Museum</p>
+                    <p>Sirkulasjons veien 19</p>
+                    <p>0355 Oslo</p>
+                    <p>Postboks 459, Frogner</p>
+                </div>
+                <div class="walking">
+                    <h3>Walking/Cycling</h3>
+                    <p>Exit Oslo Central Station and head west on Jernbanetorget toward Stortingsgata.
+                        Turn left onto Stortingsgata and continue walking.
+                        Follow Stortingsgata until you reach Karl Johans gate; turn right onto Karl Johans gate.
+                        Walk along Karl Johans gate, passing through the Royal Palace grounds.
+                        Continue on Karl Johans gate until you reach the intersection with Inkognitogata.Turn left onto Inkognitogata, and follow it as it becomes Bogstadveien.Keep walking along Bogstadveien until you reach Majorstuen.</p>
+                    </div>
+                    <div class="car">
+                        <h3>Traveling with car</h3>
+                        <p>Add the address in to your GPS and you wil find our free parking outside the museum</p>
+                    </div>
+                </div>
+                <div class="public-container">
+                    <h3>Public Transportiation</h3>
+                    <p>Buss, 15 minutes from the central station</p>
+                    <p>Buss nr 54 to Majorstuen</p>
+                    <p>Buss nr 32 to Ljabru </p>
+                    <p>Buss nr 45 to Rikshospitalet</p>
+                    <h3>Tram, 10 minutes from the central station</h3>
+                    <p>Tram nr 54 to Majorstuen</p>
+                    <p>Tram nr 32 to Ljabru</p>
+                    <p>Tram nr 45 to Rikshospitalet</p>
+                    <h3>Sub-way, 5 minutes from the central station</h3>
+                    <p>Metro nr 3 to Majorstuen</p>
+                    <p>Metro nr 5 to Kjelsås </p>
+                    <p>Metro nr 2 to Holmenkollen</p>
+                </div>
             </div>
-        </div>
+                <div class="contact">
+                    <div class="con-container">
+                        <h2>Contact us</h2>
+                    </div>
+                </div>
+                <div class="form-container">
+
+                    <div class="form-contact">
+                        <h3 class="mail">E-mail us</h3>
+                        <form class="email">
+                            <label class="e-mail" for="e-mail"> E-mail adress</label><br>
+                            <input type="text" id="e-mail" name="e-mail"><br>
+                            <label class="subject" for="subject">Subject</label><br>
+                            <input type="text" id="subject" name="subject"><br>
+                            <label class="text-box" for="text-box">Tell us anything</label><br>
+                            <textarea name="message" id="text-box" cols="30" rows="10"></textarea>
+                        </form>
+                        <button class="send">Send</button>
+                    </div>
+                    <div class="chat-container">
+                        <div class="chat">
+                            <h3 class="chat-head">Chat with us</h3>
+                            <p>We are online from 10-22</p>
+                            <button class="start-chat">Start Chat</button>
+                        </div>
+                    </div>
+                </div>
     </main>
     <footer>
         <div class="logo-footer">

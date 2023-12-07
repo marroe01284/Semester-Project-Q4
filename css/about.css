@@ -65,6 +65,9 @@ nav a:hover{
     padding: 1.5rem 0;
 
 }
+.hide-mobile{
+    display: none;
+}
 .header-container{
     display: flex;
     justify-content: center;
@@ -104,6 +107,10 @@ p{
 .contact{
     padding-bottom: 1rem;
 }
+.first-cont{
+    display: none;
+}
+
 
 footer {
     background-color:#E6E6FA;
@@ -224,6 +231,42 @@ footer {
 }
 /*Medium screens*/
 @media (min-width: 744px) {
+    .hide-mobile{
+    display: flex;
+}
+.hide-tablet{
+    display: none;
+}
+.first-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.info-muse{
+    width: 336px;
+}
+.hide-info{
+    display: none;
+}
+.h-container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
+h1{
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+}
 }
 /*Large screens*/
 @media (min-width: 1024px){
@@ -237,6 +280,9 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.first-cont{
+    display: flex;
 }
 }
 @media (min-width: 1280px){
