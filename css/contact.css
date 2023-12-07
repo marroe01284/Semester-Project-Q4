@@ -164,6 +164,15 @@ p {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.con-container{
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-two-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
 
 .chat {
     display: flex;
@@ -386,6 +395,10 @@ display: none;
     .header-container{
     width: 572px;
     height: 89px;
+    }
+    .con-container{
+        width: 338px;
+        height: 89px;
     }
 }
 
