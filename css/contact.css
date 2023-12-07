@@ -376,6 +376,17 @@ display: none;
         justify-content: center;
         border-radius: 8px;
     }
+    h1{
+        font-size: 40px;
+        line-height: 49px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .header-container{
+    width: 572px;
+    height: 89px;
+    }
 }
 
 /*Large screens*/
