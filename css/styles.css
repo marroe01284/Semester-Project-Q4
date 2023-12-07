@@ -135,12 +135,18 @@ footer {
 }
 
 
-.discover-body {
+.discover-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
     gap: 20px;
     padding: 0 38px 32px 38px;
 }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
 
 @media (min-width: 712px) {
     .discover-body {
@@ -162,15 +168,17 @@ footer {
 
 .image-container img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
-.discover-container-two {
+.news-container-two {
     display: flex;
     justify-content: center;
     padding: 0 0 1.5rem 0;
 }
 
-.whats-new {
+.whats-new-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +188,7 @@ footer {
     border-radius: 0.5rem;
 }
 
-.whats-new-container {
+/*.whats-new-container {
     display: flex;
     width: 100%;
     padding: 0 16px 0 16px;
@@ -190,9 +198,9 @@ footer {
 .whats-new-container .news-item img {
     display: flex;
     align-self: flex-start;
-}
+}*/
 
-.news-item {
+/*.news-item {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -202,13 +210,25 @@ footer {
     width: 100%;
     max-width: 200px;
     height: auto;
+}*/
+
+.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+    gap: 20px;
+    padding: 0 38px 32px 38px;
 }
 
 .news-content {
     display: block;
     text-align: left;
     width: 100%;
-    flex-grow: 1;
+}
+
+.whats-new-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .news-content h3 {
