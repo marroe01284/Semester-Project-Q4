@@ -65,6 +65,9 @@ nav a:hover{
     padding: 1.5rem 0;
 
 }
+.hide-mobile{
+    display: none;
+}
 .header-container{
     display: flex;
     justify-content: center;
@@ -224,6 +227,12 @@ footer {
 }
 /*Medium screens*/
 @media (min-width: 744px) {
+    .hide-mobile{
+    display: flex;
+}
+.hide-tablet{
+    display: none;
+}
 }
 /*Large screens*/
 @media (min-width: 1024px){
