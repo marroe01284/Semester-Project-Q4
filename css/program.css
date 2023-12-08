@@ -59,6 +59,31 @@ nav a:hover{
 .menu-button{
     display: none;
 }
+
+.program-container {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 66px;
+    background-color: var(--header-one-color);
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
 footer {
     background-color:#E6E6FA;
     color: #000000;
