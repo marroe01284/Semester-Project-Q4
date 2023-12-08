@@ -317,6 +317,9 @@ display: none;
 .hide-mo-tab{
     display: none;
 }
+.chat-text{
+    display: none;
+}
 
 /*Small screens*/
 @media (min-width: 430px) {
@@ -420,9 +423,12 @@ display: none;
         justify-content: center;
         align-items: center;
     }
+
 }
 
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+    
+}
 
 /*Xtra large screens*/
 @media (min-width:1440px) {
@@ -503,10 +509,13 @@ display: none;
     }
     .chat-text{
         width: 300px;
+        text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
+    }
+    .chat-tex{
+        display: none;
     }
 }
