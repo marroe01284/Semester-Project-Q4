@@ -314,6 +314,9 @@ footer {
 .hide-mobile{
 display: none;
 }
+.hide-mo-tab{
+    display: none;
+}
 
 /*Small screens*/
 @media (min-width: 430px) {
@@ -441,5 +444,69 @@ display: none;
         width: 640px;
         height: 728px;
         border-radius: 8px;
+    }
+    .hide-mo-tab{
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        padding-bottom: 2rem;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    h1{
+        font-size: 48px;
+        line-height: 49px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .header-container{
+    width: 640px;
+    height: 132px;
+    }
+    .con-container{
+        width: 640px;
+        height: 132px;
+    }
+    .chat{
+        width: 610px;
+        height: 646px;
+    }
+    .form-contact{
+        width: 610px;
+        height: 646px;
+    }
+    input{
+        width: 412px;
+        height: 55px;
+    }
+    textarea{
+        width: 412px;
+        height: 220px;
+    }
+    label{
+        font-size: 24px;
+    }
+    .send{
+        width: 171px;
+        height: 47px;
+        font-size: 24px;
+    }
+    .chat-text{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
     }
 }
