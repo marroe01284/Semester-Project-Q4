@@ -1,12 +1,13 @@
 @import"variables.css";
 @import"reset.css";
 
-nav{
+nav {
     background-color: var(--background-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid;
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
@@ -14,11 +15,13 @@ nav ul{
     align-items: center;
 
 }
-nav li{
+
+nav li {
     height: 50px;
 
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -26,16 +29,19 @@ nav a{
     align-items: center;
     color: #000000;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: bisque;
 }
-.museum-logo{
+
+.museum-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 1rem;
 }
-.sidebar{
+
+.sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -50,28 +56,34 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
 }
-.sidebar li{
+
+.sidebar li {
     width: 100%;
 }
-.sidebar a{
+
+.sidebar a {
     width: 100%;
 }
-.menu-button{
+
+.menu-button {
     display: none;
 }
-.container-h{
+
+.container-h {
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +92,8 @@ nav a:hover{
     background-color: var(--header-one-color);
     border-radius: .5rem;
 }
-.ticket-info-one{
+
+.ticket-info-one {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -89,7 +102,8 @@ nav a:hover{
     background-color: var(--header-two-color);
     border-radius: .5rem;
 }
-.ticket-info-two{
+
+.ticket-info-two {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -98,33 +112,38 @@ nav a:hover{
     background-color: var(--header-one-color);
     border-radius: .5rem;
 }
-h1{
+
+h1 {
     font-size: 32px;
     font-weight: 700;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-weight: 700;
     padding-top: 2rem;
 }
-p{
+
+p {
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
     padding-top: 4px;
 }
+
 footer {
-    background-color:#E6E6FA;
+    background-color: #E6E6FA;
     color: #000000;
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto auto;
     align-items: start;
     justify-content: space-between;
 }
 
-.left-content, .right-content {
+.left-content,
+.right-content {
     max-width: 300px;
 }
 
@@ -213,111 +232,167 @@ footer {
     padding-top: 32px;
     font-size: 14px;
 }
+
 /*Small screens*/
-@media (min-width: 430px){
-    .hide-on-mobile{
+@media (min-width: 430px) {
+    .hide-on-mobile {
         display: none;
     }
-    .sidebar{
+
+    .sidebar {
         width: 100%;
     }
-    .menu-button{
+
+    .menu-button {
         display: flex;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
 }
+
 /*Medium screens*/
 @media (min-width: 744px) {
-    .media-container{
+    .media-container {
         display: flex;
         justify-content: space-around;
     }
-    .container{
+
+    .container {
         width: 100%;
     }
-    .header-container{
+
+    .header-container {
         width: 488px;
         height: 89px;
     }
-    h1{
+
+    h1 {
         font-size: 40px;
         font-weight: 700;
     }
-    h3{
+
+    h3 {
         font-size: 24px;
         font-weight: 700;
         padding-top: 2rem;
         line-height: 29px;
     }
-    p{
+
+    p {
         font-size: 14px;
         font-weight: 500;
         line-height: 17px;
         padding-top: 16px;
     }
-    .ticket-info-two{
+
+    .ticket-info-two {
         width: 347px;
         height: 586px;
     }
-    .ticket-info-one{
+
+    .ticket-info-one {
         width: 347px;
         height: 586px;
-    } 
-    
-}
-/*Large screens*/
-@media (min-width: 1024px){
-.hide-on-mobile{
-    display: flex;
-}
-.menu-button{
-    display: none;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-}
-@media (min-width: 1280px){
-}
-/*Xtra large screens*/
-@media (min-width:1440px){
-.header-container{
-    width: 640px;
-    height: 132px;
-    background-color: var(--header-two-color);
-}
-h1{
-    font-size: 48px;
-    font-weight: 700;
-}
-h3{
-    font-size: 32px;
-    font-weight: 700;
-    padding-top: 2rem;
-    line-height: 39px;
-}
-p{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    padding-top: 16px;
-}
-.ticket-info-two{
-    width: 530px;
-    height: 888px;
-}
-.ticket-info-one{
-    width: 530px;
-    height: 888px;
-} 
+    }
 
-.container{
-    width: 100%;
 }
+
+/*Large screens*/
+@media (min-width: 1024px) {
+    .hide-on-mobile {
+        display: flex;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header-container {
+        width: 640px;
+        height: 132px;
+        background-color: var(--header-two-color);
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-top: 2rem;
+        line-height: 39px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        padding-top: 16px;
+    }
+
+    .ticket-info-two {
+        width: 600px;
+        height: 888px;
+    }
+
+    .ticket-info-one {
+        width: 600px;
+        height: 888px;
+    }
+}
+
+/*Xtra large screens*/
+@media (min-width:1440px) {
+    .header-container {
+        width: 640px;
+        height: 132px;
+        background-color: var(--header-two-color);
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-top: 2rem;
+        line-height: 39px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        padding-top: 16px;
+    }
+
+    .ticket-info-two {
+        width: 600px;
+        height: 888px;
+    }
+
+    .ticket-info-one {
+        width: 600px;
+        height: 888px;
+    }
+
+    .container {
+        width: 100%;
+    }
 }
