@@ -81,10 +81,13 @@ nav a:hover{
     background-color: var(--header-one-color);
 }
 
+.section-two-container {
+    padding: 16px 0 16px 0;
+}
+
 .section-two {
     display: flex;
     background-color: var(--header-two-color) ;
-    padding: 0 16px 0 16px;
 }
 
 .image-container-section {
