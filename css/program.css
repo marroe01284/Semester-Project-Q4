@@ -76,6 +76,25 @@ nav a:hover{
     border-radius: 0.5rem;
 }
 
+.main-section {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: auto;
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Set text color to contrast with the image */
+}
+
 
 
 

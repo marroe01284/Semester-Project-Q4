@@ -10,52 +10,67 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="sidebar">
-                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="program.html">Program</a></li>
-                <li><a href="tickets.html">Tickets</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+<header>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512">
+                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="museum-logo">
+            <a href="index.html"><img src="images/mobile/open-science-735787 1.png" alt="logo of the museum"></a>
+            <ul>
+                <!-- <li><img src="images/mobile/open-science-735787 1.png" alt="image of our logo"></li> -->
+                <li class="hide-on-mobile"><a href="index.html">Home</a></li>
+                <li class="hide-on-mobile"><a href="program.html">Program</a></li>
+                <li class="hide-on-mobile"><a href="tickets.html">Tickets</a></li>
+                <li class="hide-on-mobile"><a href="about.html">About</a></li>
+                <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                        <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                    </svg>
+                </a></li>
             </ul>
-            <div class="museum-logo">
-                <a href="index.html"><img src="images/mobile/open-science-735787 1.png" alt="logo of the museum"></a>
-                <ul>
-                    <!-- <li><img src="images/mobile/open-science-735787 1.png" alt="image of our logo"></li> -->
-                    <li class="hide-on-mobile"><a href="index.html">Home</a></li>
-                    <li class="hide-on-mobile"><a href="program.html">Program</a></li>
-                    <li class="hide-on-mobile"><a href="tickets.html">Tickets</a></li>
-                    <li class="hide-on-mobile"><a href="about.html">About</a></li>
-                    <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
-                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="program-container">
-            <div class="program">
-                <h1>Program</h1>
-            </div>
         </div>
+    </nav>
+</header>
+<main>
+    <div class="program-container">
+        <div class="program">
+            <h1>Program</h1>
+        </div>
+    </div>
 
-        <section class="main-section">
-            <div>
+    <section class="main-section">
+        <div class="section-container">
+            <img src="images/mobile/lunar-mobile.png" alt="lunar">
+            <div class="text-content">
                 <h2>Premiere of "Lunar Eclipse"</h2>
-                <img src="images/mobile/lunar-mobile.png" alt="lunar">
+                <p>Step into the enchanting realm of the cosmos at GalaxyGenius Museum’s Lunar Eclipse attraction. Immerse
+                    yourself in the celestial dance as the Earth’s shadow gracefully blankets the moon.</p>
+                <button>View more</button>
             </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <div class="logo-footer">
-            <img src="images/mobile/open-science-735787 1.png" alt="logo of museum">
         </div>
-        <div class="left-content">
-            <div class="address-div">
+    </section>
+
+</main>
+
+<footer>
+    <div class="logo-footer">
+        <img src="images/mobile/open-science-735787 1.png" alt="logo of museum">
+    </div>
+    <div class="left-content">
+        <div class="address-div">
                 <span>
                 <strong>Address<br></strong>
                 Sirkulasjons veien 19<br>
@@ -63,21 +78,21 @@
                 Frogner<br>
                 0355 Oslo<br>
             </span>
-            </div>
-            <div class="telephone-div">
+        </div>
+        <div class="telephone-div">
                 <span>
                 <strong>Telephone<br></strong>
                 <span class="telephone">(+47) 12 34 56 78<br></span>
             </span>
-            </div>
-            <span>
+        </div>
+        <span>
                 <strong>Email address<br></strong>
                 <span class="post">Post@galaxygenius.com</span>
             </span>
-        </div>
+    </div>
 
-        <div class="right-content">
-            <div class="follow-us-div">
+    <div class="right-content">
+        <div class="follow-us-div">
                 <span class="span-one">
                 <strong>Follow us<br></strong>
                 <i class="fa-brands fa-square-facebook" style="color: #000000;"></i>
@@ -85,28 +100,29 @@
                 <i class="fa-brands fa-square-x-twitter" style="color: #000000;"></i>
                 <i class="fa-brands fa-square-snapchat" style="color: #000000;"></i>
             </span>
-            </div>
-            <div class="privacy-div">
+        </div>
+        <div class="privacy-div">
                 <span class="span-two">
                 Privacy
             </span>
-            </div>
-            <span class="terms">Terms and conditions</span>
         </div>
+        <span class="terms">Terms and conditions</span>
+    </div>
 
-        <div class="bottom-text">
-            <span>2023 © GalaxyGenius in Oslo</span>
-        </div>
-    </footer>
-    <script>
-        function showSidebar(){
-            const sidebar = document.querySelector(".sidebar")
-            sidebar.style.display = "flex"
-        }
-        function hideSidebar(){
-            const sidebar = document.querySelector(".sidebar")
-            sidebar.style.display = "none"
-        }
-    </script>
+    <div class="bottom-text">
+        <span>2023 © GalaxyGenius in Oslo</span>
+    </div>
+</footer>
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "flex"
+    }
+
+    function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "none"
+    }
+</script>
 </body>
 </html>
