@@ -76,6 +76,40 @@ nav a:hover{
     border-radius: 0.5rem;
 }
 
+.section-one {
+    display: flex;
+    background-color: var(--header-one-color);
+}
+
+.section-two {
+    display: flex;
+    background-color: var(--header-two-color) ;
+    padding: 0 16px 0 16px;
+}
+
+.image-container-section {
+    flex: 0 0 auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.section-text {
+    margin: 10px;
+}
+
+.section-text-bottom {
+    margin: 10px;
+    padding-bottom: 16px;
+}
+
+
 
 footer {
     background-color:#E6E6FA;
