@@ -212,6 +212,12 @@ footer {
     padding-top: 32px;
     font-size: 14px;
 }
+.pic-desk{
+    display: none;
+}
+.desk-head{
+    display: none;
+}
 /*Small screens*/
 @media (min-width: 430px){
     .hide-on-mobile{
@@ -267,6 +273,9 @@ h2{
     font-weight: 700;
     line-height: 49px;
 }
+.desk-head{
+    display: flex;
+}
 }
 /*Large screens*/
 @media (min-width: 1024px){
@@ -289,5 +298,40 @@ nav ul{
 }
 /*Xtra large screens*/
 @media (min-width:1440px){
-
+.hide-desk{
+    display: none;
+}
+.pic-desk{
+    display: flex;
+}
+.hide-mobile{
+    display: none;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    
+}
+.h-container{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+.container{
+    padding: 3rem 0rem;
+}
+.first-cont{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.header-container{
+    width: 640px;
+    height: 132px;
+}
 }
