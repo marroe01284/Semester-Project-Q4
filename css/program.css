@@ -82,7 +82,7 @@ nav a:hover{
 
 .container {
     position: relative;
-    max-width: 600px; /* Adjust the max-width as needed */
+    max-width: 600px;
     margin: auto;
 }
 
@@ -92,8 +92,34 @@ nav a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white; /* Set text color to contrast with the image */
+    color: white;
 }
+
+.main-section .section-container img {
+    max-width: 100%;
+}
+
+.text-content h2 {
+    font-size: 1rem;
+    white-space: nowrap;
+    padding-bottom: 4px;
+}
+
+.text-content p {
+    font-size: 0.5rem;
+    padding-bottom: 84px;
+}
+
+.text-content button {
+    width: 146px;
+    height: 28px;
+    border-radius: 8px;
+    border: 0;
+    background-color: var(--button-one);
+    color: var(--background-color);
+
+}
+
 
 
 
