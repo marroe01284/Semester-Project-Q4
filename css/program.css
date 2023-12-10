@@ -120,7 +120,46 @@ nav a:hover{
 
 }
 
+.program-section {
+    padding: 8px 0 8px 0;
+}
 
+.program-header h2 {
+    margin-left: 8px;
+    padding-top: 24px;
+}
+
+.program-one {
+    background-color: var(--header-one-color);
+}
+
+.program-one h3 {
+    padding-top: 8px;
+}
+
+.program-one h4 {
+    padding: 4px 0 4px 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+}
+
+.program-one h3, .program-one h4, .program-one button {
+    margin-left: 16px;
+}
+
+.program-one button {
+    background-color: var(--botton-one-active);
+    color: white;
+    width: 98px;
+    height: 22px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 10px;
+}
+
+.tickets-button {
+    padding-bottom: 8px;
+}
 
 
 
