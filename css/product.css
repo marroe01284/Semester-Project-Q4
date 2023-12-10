@@ -60,6 +60,10 @@ nav a:hover{
     display: none;
 }
 
+section {
+    padding: 0 8px 0 8px;
+}
+
 .discover-container {
     display: flex;
     justify-content: center;
@@ -72,8 +76,27 @@ nav a:hover{
     align-items: center;
     width: 320px;
     height: 66px;
-    background-color: var(--header-one-color);
+    background-color: var(--header-two-color);
     border-radius: 0.5rem;
+}
+
+.p-text-tablet {
+    padding-top: 8px;
+}
+
+@media (min-width: 430px) {
+    .p-text-tablet {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .p-text-tablet {
+        display: flex;
+    }
+    .section-text, p {
+        display: none;
+    }
 }
 
 .section-one {
@@ -109,10 +132,7 @@ nav a:hover{
 
 .section-text-bottom {
     margin: 10px;
-    padding-bottom: 16px;
 }
-
-
 
 footer {
     background-color:#E6E6FA;
