@@ -35,7 +35,8 @@ nav a:hover{
     align-items: center;
     padding-left: 1rem;
 }
-.sidebar{
+
+.sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -50,13 +51,15 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
 }
-.sidebar li{
+.sidebar li {
     width: 100%;
 }
-.sidebar a{
+
+.sidebar a {
     width: 100%;
 }
-.menu-button{
+
+.menu-button {
     display: none;
 }
 
@@ -78,55 +81,149 @@ nav a:hover{
 
 .main-section {
     position: relative;
+    width: 100%;
+    max-width: 100%;
 }
 
-.container {
+.section-container {
     position: relative;
-    max-width: 600px;
-    margin: auto;
+    overflow: hidden;
+}
+
+.main-section .section-container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .text-content {
     position: absolute;
-    top: 50%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
 }
 
-.main-section .section-container img {
-    max-width: 100%;
-}
-
 .text-content h2 {
-    font-size: 1rem;
-    white-space: nowrap;
-    padding-bottom: 4px;
+    font-size: 3vw;
 }
 
-.text-content p {
-    font-size: 0.5rem;
-    padding-bottom: 84px;
-}
-
-.text-content button {
-    width: 146px;
-    height: 28px;
+.view-more-btn button {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    width: 18vw;
+    height: 5vw;
     border-radius: 8px;
     border: 0;
     background-color: var(--button-one);
     color: var(--background-color);
+    cursor: pointer;
+}
 
+@media (min-width: 901px) {
+    .view-more-btn button {
+        font-size: 18px;
+        width: 166px;
+        height: 45px;
+    }
 }
 
 .program-section {
     padding: 8px 0 8px 0;
 }
 
+@media (min-width: 430px) {
+    .tablet-img, .desktop-img {
+        display: none;
+    }
+
+    .program-section .program-one .h4-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .mobile-img {
+        display: none;
+    }
+    .tablet-img {
+        display: grid;
+        grid-column: 1;
+    }
+
+    .program-section .program-one {
+        background-color: white;
+    }
+
+    .program-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .program-section {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    .program-one .h4-mobile {
+        display: none;
+    }
+
+    .program-section .program-one .h4-desktop {
+        display: flex;
+    }
+}
+
+@media (min-width: 740px) {
+    .program-section {
+        padding: 8px 24px 40px 24px;
+    }
+
+    .program-one h3 {
+        font-size: 1.6rem;
+    }
+
+    .program-one .h4-desktop {
+        font-size: 1rem;
+    }
+
+    .program-one .tickets-button button {
+        margin: 0;
+    }
+
+    .program-one .tickets-button button {
+        background-color: var(--botton-one-active);
+        color: white;
+        width: 178px;
+        height: 28px;
+        border-radius: 8px;
+        border: 0;
+        font-size: 14px;
+    }
+}
+
+@media  (min-width: 1000px) {
+    .tablet-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: grid;
+        grid-column: 1;
+    }
+}
+
 .program-header h2 {
-    margin-left: 8px;
-    padding-top: 24px;
+    padding: 24px 0 8px 0;
 }
 
 .program-one {
@@ -141,10 +238,21 @@ nav a:hover{
     padding: 4px 0 4px 0;
     color: rgba(0, 0, 0, 0.50);
     font-size: 14px;
+    display: flex;
+    text-align: center;
 }
 
 .program-one h3, .program-one h4, .program-one button {
     margin-left: 16px;
+}
+
+@media (min-width: 500px) {
+    .program-one h3,
+    .program-one h4,
+    .program-one .tickets-button {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .program-one button {
@@ -158,15 +266,12 @@ nav a:hover{
 }
 
 .tickets-button {
-    padding-bottom: 8px;
+    padding: 0 0 8px 0;
 }
 
-
-
-
-
-
-
+.tickets-button button {
+    cursor: pointer;
+}
 
 footer {
     background-color:#E6E6FA;
@@ -304,7 +409,7 @@ nav ul{
 }
 @media (min-width: 1280px){
 }
-/*Xtra large screens*/
+
 @media (min-width:1440px){
 
 }
