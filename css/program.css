@@ -76,6 +76,90 @@ nav a:hover{
     border-radius: 0.5rem;
 }
 
+.main-section {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.main-section .section-container img {
+    max-width: 100%;
+}
+
+.text-content h2 {
+    font-size: 1rem;
+    white-space: nowrap;
+    padding-bottom: 4px;
+}
+
+.text-content p {
+    font-size: 0.5rem;
+    padding-bottom: 84px;
+}
+
+.text-content button {
+    width: 146px;
+    height: 28px;
+    border-radius: 8px;
+    border: 0;
+    background-color: var(--button-one);
+    color: var(--background-color);
+
+}
+
+.program-section {
+    padding: 8px 0 8px 0;
+}
+
+.program-header h2 {
+    margin-left: 8px;
+    padding-top: 24px;
+}
+
+.program-one {
+    background-color: var(--header-one-color);
+}
+
+.program-one h3 {
+    padding-top: 8px;
+}
+
+.program-one h4 {
+    padding: 4px 0 4px 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+}
+
+.program-one h3, .program-one h4, .program-one button {
+    margin-left: 16px;
+}
+
+.program-one button {
+    background-color: var(--botton-one-active);
+    color: white;
+    width: 98px;
+    height: 22px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 10px;
+}
+
+.tickets-button {
+    padding-bottom: 8px;
+}
 
 
 
