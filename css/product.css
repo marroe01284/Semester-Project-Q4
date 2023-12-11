@@ -61,7 +61,7 @@ nav a:hover{
 }
 
 section {
-    padding: 0 8px 0 8px;
+    padding: 0 8px 32px 8px;
 }
 
 .discover-container {
@@ -85,13 +85,16 @@ section {
 }
 
 @media (min-width: 430px) {
-    .p-text-tablet {
+    .tablet-text {
+        display: none;
+    }
+    .section-one, .desktop-img {
         display: none;
     }
 }
 
 @media (min-width: 744px) {
-    .p-text-tablet {
+    .tablet-text {
         display: flex;
     }
     .section-text, p {
@@ -99,18 +102,35 @@ section {
     }
 }
 
+@media (min-width: 1200px) {
+    .section-one, .desktop-img {
+        display: flex;
+    }
+
+    .section-one, .tablet-img {
+        display: none;
+    }
+
+}
+
 .section-one {
     display: flex;
     background-color: var(--header-one-color);
+    border-radius: 8px;
+}
+
+.section-one img {
+    border-radius: 8px 0 0 8px;
 }
 
 .section-two-container {
-    padding: 16px 0 16px 0;
+    padding: 0 8px 32px 8px;
 }
 
 .section-two {
     display: flex;
-    background-color: var(--header-two-color) ;
+    background-color: var(--header-two-color);
+    border-radius: 8px;
 }
 
 .image-container-section {
@@ -124,6 +144,10 @@ section {
     align-items: center;
     text-align: center;
     flex: 1;
+}
+
+.text-container h2 {
+    padding-bottom: 16px;
 }
 
 .section-text {
