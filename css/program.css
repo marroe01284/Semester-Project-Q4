@@ -124,9 +124,86 @@ nav a:hover{
     padding: 8px 0 8px 0;
 }
 
+@media (min-width: 430px) {
+    .tablet-img, .desktop-img {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .mobile-img {
+        display: none;
+    }
+    .tablet-img {
+        display: grid;
+        grid-column: 1;
+    }
+
+    .program-section .program-one {
+        background-color: white;
+    }
+
+    .program-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .program-section {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    .program-one .h4-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 740px) {
+    .program-section {
+        padding: 8px 24px 8px 24px;
+    }
+
+    .program-one h3 {
+        font-size: 1.6rem;
+    }
+
+    .program-one .h4-desktop {
+        font-size: 1rem;
+    }
+
+    .program-one .tickets-button button {
+        margin: 0;
+    }
+
+    .program-one .tickets-button button {
+        background-color: var(--botton-one-active);
+        color: white;
+        width: 178px;
+        height: 28px;
+        border-radius: 8px;
+        border: 0;
+        font-size: 14px;
+    }
+}
+
+@media  (min-width: 1000px) {
+    .tablet-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: grid;
+        grid-column: 1;
+    }
+}
+
 .program-header h2 {
-    margin-left: 8px;
-    padding-top: 24px;
+    padding: 24px 0 8px 0;
 }
 
 .program-one {
@@ -141,10 +218,21 @@ nav a:hover{
     padding: 4px 0 4px 0;
     color: rgba(0, 0, 0, 0.50);
     font-size: 14px;
+    display: flex;
+    text-align: center;
 }
 
 .program-one h3, .program-one h4, .program-one button {
     margin-left: 16px;
+}
+
+@media (min-width: 500px) {
+    .program-one h3,
+    .program-one h4,
+    .program-one .tickets-button {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .program-one button {
@@ -158,7 +246,7 @@ nav a:hover{
 }
 
 .tickets-button {
-    padding-bottom: 8px;
+    padding: 0 0 8px 0;
 }
 
 
