@@ -250,6 +250,12 @@ nav a:hover{
     width: 100%;
 }
 
+.whats-new-grid h6 {
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 8px;
+}
+
 .whats-new-grid img {
     width: 100%;
     height: auto;
@@ -257,7 +263,7 @@ nav a:hover{
 }
 
 .news-content h3 {
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .news-article {
