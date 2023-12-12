@@ -88,6 +88,8 @@ nav a:hover{
     grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
     gap: 20px;
     padding: 0 38px 32px 38px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .image-container {
@@ -103,6 +105,8 @@ nav a:hover{
     grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
     gap: 20px;
     padding: 32px 38px 32px 38px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 @media (min-width: 430px){
@@ -132,7 +136,12 @@ nav a:hover{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
     }
+}
 
+@media (min-width: 500px) {
+    .whats-new-grid {
+        grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+    }
 }
 
 @media (min-width: 634px) {
@@ -145,12 +154,7 @@ nav a:hover{
     }
 }
 
-/*.whats-new-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
-    gap: 20px;
-    padding: 32px 38px 32px 38px;
-}*/
+
 
 @media (min-width: 712px) {
     .discover-grid {
@@ -165,6 +169,7 @@ nav a:hover{
         grid-template-columns: repeat(4, minmax(139px, 1fr));
     }
 }
+
 
 @media (min-width: 863px) {
     .discover-grid {
