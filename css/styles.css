@@ -66,6 +66,12 @@ nav a:hover{
     padding: 1.5rem 0;
 }
 
+/*.footer-desktop {
+    display: none;
+    grid-template-columns: repeat(3,1fr);
+    padding: 32px 0 16px 0;
+}*/
+
 .discover {
     display: flex;
     justify-content: center;
@@ -92,15 +98,71 @@ nav a:hover{
     cursor: pointer;
 }
 
+.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+    gap: 20px;
+    padding: 32px 38px 32px 38px;
+}
+
+@media (min-width: 430px){
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .menu-button {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .whats-new-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
+    }
+
+}
+
 @media (min-width: 634px) {
     .discover-grid {
         grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
     }
+
+    .footer-desktop {
+        display: none;
+    }
 }
+
+/*.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+    gap: 20px;
+    padding: 32px 38px 32px 38px;
+}*/
 
 @media (min-width: 712px) {
     .discover-grid {
         grid-template-columns: repeat(auto-fill, minmax(138px, 1fr));
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .whats-new-grid {
+        grid-template-columns: repeat(4, minmax(139px, 1fr));
     }
 }
 
@@ -108,11 +170,51 @@ nav a:hover{
     .discover-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .footer-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 868px) {
+    /*.whats-new-grid {
+        grid-template-columns: repeat(4, minmax(139px, 1fr));
+    }*/
+
+    .footer-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: grid;
+    }
 }
 
 @media (min-width: 1100px) {
     .discover-grid img {
         max-width: 280px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hide-on-mobile {
+        display: flex;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -180,25 +282,25 @@ nav a:hover{
     line-height: 2;
 }
 
-.whats-new-grid {
+/*.whats-new-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
     gap: 20px;
     padding: 32px 38px 32px 38px;
-}
+}*/
 
 
-@media (min-width: 712px) {
+/*@media (min-width: 712px) {
     .whats-new-grid {
         grid-template-columns: repeat(auto-fill, minmax(139px, 1fr));
     }
-}
+}*/
 
-@media (min-width: 868px) {
+/*@media (min-width: 868px) {
     .whats-new-grid {
         grid-template-columns: repeat(4, minmax(139px, 1fr));
     }
-}
+}*/
 
 .button-div {
     display: flex;
@@ -215,27 +317,27 @@ nav a:hover{
     background-color: white;
 }
 
-@media (min-width: 430px){
-    .hide-on-mobile{
+/*@media (min-width: 430px){
+    .hide-on-mobile {
         display: none;
     }
-    .sidebar{
+
+    .sidebar {
         width: 100%;
     }
-    .menu-button{
+
+    .menu-button {
         display: flex;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
-}
+}*/
 
-@media (min-width: 744px) {
-}
-
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
 .hide-on-mobile {
     display: flex;
     }
@@ -249,7 +351,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     }
-}
+}*/
 
 footer {
     background-color:#E6E6FA;
@@ -352,27 +454,15 @@ footer {
     font-size: 14px;
 }
 
-@media (min-width: 740px) {
-    .footer-mobile {
-        display: none;
-    }
-}
-
 .footer-desktop {
-    display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 32px 0 32px 0;
+    padding: 32px 0 16px 0;
 }
 
 .footer-desktop div {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 1.5rem;
-}
-
-.footer-desktop span {
-    text-align: left;
 }
 
 .mail-div {
@@ -380,3 +470,22 @@ footer {
     border-right: 1px solid;
 }
 
+.mail-div p {
+    line-height: 1.5;
+}
+
+.social-media-icons {
+    grid-column: 2;
+    padding-top: 32px;
+    gap: 32px;
+}
+
+.footer-text {
+    grid-row: 3;
+    grid-column: 2;
+    padding-top: 32px;
+}
+
+.footer-desktop div p {
+    line-height: 1.5;
+}
