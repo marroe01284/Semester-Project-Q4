@@ -43,6 +43,7 @@ nav a:hover {
 .logo-achor{
     padding: 0px;
 }
+
 .museum-logo img{
 width: 73px;
 height: 73px;
@@ -144,13 +145,27 @@ p {
     align-items: center;
     padding: 1.5rem 0 1.5rem 0;
 }
-
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .form-contact {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: var(--header-one-color);
-    height: 401px;
+    height: 420px;
+    width: 400px;
+    border-radius: 8px;
+}
+.email{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+form label{
+    margin: 5px 0px 0px 0px;
 }
 
 .mail,
@@ -192,8 +207,10 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--header-one-color);
+    background-color: var(--header-two-color);
     height: 206px;
+    width: 400px;
+    border-radius: 8px;
 }
 
 input {
@@ -213,13 +230,13 @@ textarea {
 }
 
 .start-chat {
-    width: 204px;
-    height: 46px;
+    width: 115px;
+    height: 29px;
     background-color: var(--button-two);
     color: var(--background-color);
     border: none;
     border-radius: .5rem;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
@@ -388,6 +405,7 @@ display: none;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: row;
     }
 
     .form-contact {
@@ -397,7 +415,7 @@ display: none;
 
     .chat {
         width: 350px;
-        height: 401px;
+        height: 420px;
         justify-content: center;
         background-color: var(--header-two-color);
         border-radius: 8px;
