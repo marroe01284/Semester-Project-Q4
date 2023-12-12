@@ -85,6 +85,10 @@ nav a:hover {
     background-color: var(--header-two-color);
     border-radius: .5rem;
 }
+button a{
+    text-decoration: none;
+    color: white;
+}
 
 h1 {
     font-size: 32px;
@@ -159,6 +163,9 @@ p {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1rem;
 }
+.send:hover{
+    background-color: var(--button-two-active);
+}
 
 .chat-container {
     padding-top: 1rem;
@@ -209,7 +216,9 @@ textarea {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
-
+.start-chat:hover{
+    background-color: var(--button-two-active);
+}
 footer {
     background-color: var(--header-two-color);
     color: #000000;
