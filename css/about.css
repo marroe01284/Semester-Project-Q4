@@ -68,6 +68,9 @@ nav a:hover{
 .hide-mobile{
     display: none;
 }
+.pick-desk{
+width: 100%;
+}
 .header-container{
     display: flex;
     justify-content: center;
