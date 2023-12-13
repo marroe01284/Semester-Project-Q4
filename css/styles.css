@@ -50,12 +50,15 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
 }
+
 .sidebar li{
     width: 100%;
 }
+
 .sidebar a{
     width: 100%;
 }
+
 .menu-button{
     display: none;
 }
@@ -66,12 +69,6 @@ nav a:hover{
     padding: 1.5rem 0;
 }
 
-/*.footer-desktop {
-    display: none;
-    grid-template-columns: repeat(3,1fr);
-    padding: 32px 0 16px 0;
-}*/
-
 .discover {
     display: flex;
     justify-content: center;
@@ -81,7 +78,6 @@ nav a:hover{
     background-color: var(--header-one-color);
     border-radius: 0.5rem;
 }
-
 
 .discover-grid {
     display: grid;
@@ -154,8 +150,6 @@ nav a:hover{
     }
 }
 
-
-
 @media (min-width: 712px) {
     .discover-grid {
         grid-template-columns: repeat(auto-fill, minmax(138px, 1fr));
@@ -170,7 +164,6 @@ nav a:hover{
     }
 }
 
-
 @media (min-width: 863px) {
     .discover-grid {
         grid-template-columns: repeat(4, 1fr);
@@ -182,15 +175,9 @@ nav a:hover{
 }
 
 @media (min-width: 868px) {
-    /*.whats-new-grid {
-        grid-template-columns: repeat(4, minmax(139px, 1fr));
-    }*/
-
     .footer-desktop {
         display: none;
     }
-
-    .
 }
 
 @media (min-width: 900px) {
@@ -295,26 +282,6 @@ nav a:hover{
     line-height: 2;
 }
 
-/*.whats-new-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
-    gap: 20px;
-    padding: 32px 38px 32px 38px;
-}*/
-
-
-/*@media (min-width: 712px) {
-    .whats-new-grid {
-        grid-template-columns: repeat(auto-fill, minmax(139px, 1fr));
-    }
-}*/
-
-/*@media (min-width: 868px) {
-    .whats-new-grid {
-        grid-template-columns: repeat(4, minmax(139px, 1fr));
-    }
-}*/
-
 .button-div {
     display: flex;
     justify-content: center;
@@ -329,42 +296,6 @@ nav a:hover{
     justify-content: center;
     background-color: white;
 }
-
-/*@media (min-width: 430px){
-    .hide-on-mobile {
-        display: none;
-    }
-
-    .sidebar {
-        width: 100%;
-    }
-
-    .menu-button {
-        display: flex;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
-}*/
-
-/*@media (min-width: 1024px) {
-.hide-on-mobile {
-    display: flex;
-    }
-
-.menu-button {
-    display: none;
-    }
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-}*/
 
 footer {
     background-color:#E6E6FA;
