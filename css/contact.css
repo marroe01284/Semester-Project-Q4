@@ -81,7 +81,7 @@ height: 73px;
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .header-container {
@@ -145,7 +145,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem 0 1.5rem 0;
+    padding: 6rem 0 1.5rem 0;
 }
 .form-container{
     display: flex;
@@ -430,19 +430,19 @@ display: none;
         border-radius: 8px;
     }
     h1{
-        font-size: 40px;
+        font-size: 2rem;
         line-height: 49px;
     }
     h2{
-        font-size: 40px;
+        font-size: 2rem;
     }
     .header-container{
-    width: 572px;
-    height: 89px;
+    width: 320px;
+    height: 66px;
     }
     .con-container{
-        width: 338px;
-        height: 89px;
+        width: 320px;
+        height: 66px;
     }
 }
 
@@ -499,14 +499,14 @@ display: none;
         display: none;
     }
     h1{
-        font-size: 48px;
+        font-size: 32px;
         line-height: 49px;
     }
     h2{
-        font-size: 48px;
+        font-size: 32px;
     }
     h3{
-        font-size: 32px;
+        font-size: 24px;
     }
     p{
         font-size: 16px;
@@ -514,16 +514,25 @@ display: none;
         line-height: 24px;
     }
     .header-container{
-    width: 640px;
-    height: 132px;
+    width: 320px;
+    height: 66px;
+    
     }
+
     .con-container{
-        width: 640px;
-        height: 132px;
+        width: 320px;
+        height: 66px;
     }
     .chat{
         width: 610px;
         height: 646px;
+        justify-content: flex-start;
+    }
+    .start-chat{
+        width: 171px;
+        height: 47px;
+        font-size: 1.5rem;
+        margin-top: 64px;
     }
     .form-contact{
         width: 610px;
