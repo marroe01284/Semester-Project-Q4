@@ -80,7 +80,7 @@ height: 73px;
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .container {
@@ -96,7 +96,7 @@ height: 73px;
     align-items: center;
     width: 320px;
     height: 66px;
-    background-color: var(--header-one-color);
+    background-color: var(--header-two-color);
     border-radius: .5rem;
 }
 
@@ -277,12 +277,12 @@ footer img{
     }
 
     .header-container {
-        width: 488px;
-        height: 89px;
+        width: 320px;
+        height: 66px;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 2rem;
         font-weight: 700;
     }
 
@@ -331,18 +331,18 @@ footer img{
 
 @media (min-width: 1280px) {
     .header-container {
-        width: 640px;
-        height: 132px;
+        width: 320px;
+        height: 66px;
         background-color: var(--header-two-color);
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 2rem;
         font-weight: 700;
     }
 
     h3 {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 700;
         padding-top: 2rem;
         line-height: 39px;
@@ -369,25 +369,25 @@ footer img{
 /*Xtra large screens*/
 @media (min-width:1440px) {
     .header-container {
-        width: 640px;
-        height: 132px;
+        width: 320px;
+        height: 66px;
         background-color: var(--header-two-color);
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 2rem;
         font-weight: 700;
     }
 
     h3 {
-        font-size: 32px;
+        font-size: 1.5rem;
         font-weight: 700;
         padding-top: 2rem;
         line-height: 39px;
     }
 
     p {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 500;
         line-height: 29px;
         padding-top: 16px;
