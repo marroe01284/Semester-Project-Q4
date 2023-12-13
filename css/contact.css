@@ -123,11 +123,13 @@ p {
     padding-top: 4px;
     padding-left: .5rem;
 }
-
-.image {
+.map-container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.find-container{
+    background-color: var(--header-two-color);
 }
 
 .car {
@@ -376,7 +378,6 @@ display: none;
         justify-content: flex-end;
         align-items: center;
     }
-  
 }
 
 /*Medium screens*/
