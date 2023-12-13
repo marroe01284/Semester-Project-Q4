@@ -189,6 +189,8 @@ nav a:hover{
     .footer-desktop {
         display: none;
     }
+
+    .
 }
 
 @media (min-width: 900px) {
@@ -446,8 +448,8 @@ footer {
     font-size: 20px;
 }
 
-.span-one i {
-    margin-right: 4px;
+.span-one svg {
+    margin: 4px 8px 0 0;
 }
 
 .span-one i:last-child {
