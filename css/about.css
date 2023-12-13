@@ -35,6 +35,13 @@ nav a:hover{
     align-items: center;
     padding-left: 1rem;
 }
+.logo-achor{
+    padding: 0px;
+}
+a img{
+    width: 73px;
+    height: 73px;
+}
 .sidebar{
     position: fixed;
     top: 0;
@@ -67,6 +74,9 @@ nav a:hover{
 }
 .hide-mobile{
     display: none;
+}
+.pick-desk{
+width: 100%;
 }
 .header-container{
     display: flex;
@@ -122,7 +132,10 @@ footer {
     align-items: start;
     justify-content: space-between;
 }
-
+footer img{
+    width: 73px;
+    height: 73px;
+}
 .left-content, .right-content {
     max-width: 300px;
 }
@@ -281,6 +294,9 @@ h2{
 @media (min-width: 1024px){
 .hide-on-mobile{
     display: flex;
+}
+footer img{
+    display: none;
 }
 .menu-button{
     display: none;

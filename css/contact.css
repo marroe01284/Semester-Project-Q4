@@ -40,6 +40,14 @@ nav a:hover {
     align-items: center;
     padding-left: 1rem;
 }
+.logo-achor{
+    padding: 0px;
+}
+
+.museum-logo img{
+width: 73px;
+height: 73px;
+}
 
 .sidebar {
     position: fixed;
@@ -84,6 +92,10 @@ nav a:hover {
     height: 66px;
     background-color: var(--header-two-color);
     border-radius: .5rem;
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -133,13 +145,27 @@ p {
     align-items: center;
     padding: 1.5rem 0 1.5rem 0;
 }
-
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .form-contact {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: var(--header-one-color);
-    height: 401px;
+    height: 420px;
+    width: 400px;
+    border-radius: 8px;
+}
+.email{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+form label{
+    margin: 5px 0px 0px 0px;
 }
 
 .mail,
@@ -158,6 +184,9 @@ p {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-top: 1rem;
+}
+.send:hover{
+    background-color: var(--button-two-active);
 }
 
 .chat-container {
@@ -178,8 +207,10 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--header-one-color);
+    background-color: var(--header-two-color);
     height: 206px;
+    width: 400px;
+    border-radius: 8px;
 }
 
 input {
@@ -199,17 +230,19 @@ textarea {
 }
 
 .start-chat {
-    width: 204px;
-    height: 46px;
+    width: 115px;
+    height: 29px;
     background-color: var(--button-two);
     color: var(--background-color);
     border: none;
     border-radius: .5rem;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
-
+.start-chat:hover{
+    background-color: var(--button-two-active);
+}
 footer {
     background-color: var(--header-two-color);
     color: #000000;
@@ -220,7 +253,10 @@ footer {
     align-items: start;
     justify-content: space-between;
 }
-
+footer img{
+    width: 73px;
+    height: 73px;
+}
 .left-content,
 .right-content {
     max-width: 300px;
@@ -369,6 +405,7 @@ display: none;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: row;
     }
 
     .form-contact {
@@ -378,7 +415,7 @@ display: none;
 
     .chat {
         width: 350px;
-        height: 401px;
+        height: 420px;
         justify-content: center;
         background-color: var(--header-two-color);
         border-radius: 8px;
