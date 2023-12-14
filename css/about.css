@@ -295,9 +295,6 @@ h2{
 .hide-on-mobile{
     display: flex;
 }
-footer img{
-    display: none;
-}
 .menu-button{
     display: none;
 }

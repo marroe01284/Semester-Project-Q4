@@ -29,12 +29,20 @@ nav a{
 nav a:hover{
     background-color: bisque;
 }
+.logo-achor{
+    padding: 0px;
+}
 .museum-logo{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 1rem;
 }
+
+.museum-logo img{
+    width: 73px;
+    height: 73px;
+    }
 
 .sidebar {
     position: fixed;
@@ -122,6 +130,10 @@ nav a:hover{
     background-color: var(--button-one);
     color: var(--background-color);
     cursor: pointer;
+}
+footer img{
+    width: 73px;
+    width: 73px;
 }
 
 @media (min-width: 901px) {

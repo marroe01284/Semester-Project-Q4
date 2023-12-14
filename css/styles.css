@@ -35,6 +35,17 @@ nav a:hover{
     align-items: center;
     padding-left: 1rem;
 }
+.logo-achor{
+    padding: 0px;
+}
+.museum-logo img{
+width: 73px;
+height: 73px;
+}
+footer img{
+    width: 73px;
+    width: 73px;
+}
 .sidebar{
     position: fixed;
     top: 0;
