@@ -1,12 +1,14 @@
 
 @import"variables.css";
 @import"reset.css";
-nav{
+
+nav {
     background-color: var(--background-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid;
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
@@ -14,11 +16,12 @@ nav ul{
     align-items: center;
 
 }
-nav li{
-    height: 50px;
 
+nav li {
+    height: 50px;
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -26,27 +29,32 @@ nav a{
     align-items: center;
     color: #000000;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: bisque;
 }
-.museum-logo{
+
+.museum-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 1rem;
 }
-.logo-achor{
-    padding: 0px;
+
+.logo-achor {
+    padding: 0;
 }
-.museum-logo img{
-width: 73px;
-height: 73px;
-}
-footer img{
+
+.museum-logo img {
     width: 73px;
+    height: 73px;
+}
+
+footer img {
     width: 73px;
 }
-.sidebar{
+
+.sidebar {
     position: fixed;
     top: 0;
     right: 0;
