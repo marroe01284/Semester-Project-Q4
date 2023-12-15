@@ -105,6 +105,11 @@ section {
     padding-top: 8px;
 }
 
+.tablet-text {
+    padding: 28px;
+    line-height: 1.5;
+}
+
 @media (min-width: 430px) {
     .tablet-text {
         display: none;
