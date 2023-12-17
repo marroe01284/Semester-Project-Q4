@@ -154,144 +154,6 @@ footer img {
 .desk-head {
     display: none;
 }
-
-@media (min-width: 430px) {
-    .hide-on-mobile {
-        display: none;
-    }
-
-    .sidebar {
-        width: 100%;
-    }
-
-    .menu-button {
-        display: flex;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
-}
-
-@media (min-width: 744px) {
-    .hide-mobile {
-        display: flex;
-    }
-
-    .hide-tablet {
-        display: none;
-    }
-
-    .first-cont {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-    }
-
-    .info-muse {
-        width: 336px;
-    }
-
-    .hide-info {
-        display: none;
-    }
-
-    .h-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-        line-height: 49px;
-        font-weight: 700;
-    }
-
-    h2 {
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 49px;
-    }
-
-    .desk-head {
-        display: flex;
-    }
-}
-
-@media (min-width: 1024px) {
-    .hide-on-mobile {
-        display: flex;
-    }
-
-    .menu-button {
-        display: none;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .first-cont {
-        display: flex;
-    }
-}
-
-@media (min-width:1440px) {
-    .hide-desk {
-        display: none;
-    }
-
-    .pic-desk {
-        display: flex;
-    }
-
-    .hide-mobile {
-        display: none;
-    }
-
-    p {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 29px;
-    }
-
-    .h-container{
-        padding-top: 4rem;
-        padding-bottom: 3rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    .container {
-        padding: 1.5rem 1.5rem;
-    }
-
-    .first-cont {
-        padding-top: 4rem;
-        padding-bottom: 5rem;
-    }
-
-    .header-container {
-        width: 320px;
-        height: 66px;
-    }
-}
-
 footer {
     background-color:#E6E6FA;
     color: #000000;
@@ -430,13 +292,14 @@ footer {
 }
 
 @media (min-width: 430px) {
-    .hide-on-mobile{
+    .hide-on-mobile {
         display: none;
     }
 
     .sidebar {
         width: 100%;
     }
+
     .menu-button {
         display: flex;
     }
@@ -446,12 +309,60 @@ footer {
         justify-content: flex-end;
         align-items: center;
     }
-
     .footer-desktop {
         display: none;
     }
 }
 
+@media (min-width: 744px) {
+    .hide-mobile {
+        display: flex;
+    }
+    
+    .hide-tablet {
+        display: none;
+    }
+    
+    .first-cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .info-muse {
+        width: 336px;
+    }
+    
+    .hide-info {
+        display: none;
+    }
+    
+    .h-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        line-height: 49px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 49px;
+    }
+    
+    .desk-head {
+        display: flex;
+    }
+}
 @media (min-width: 900px) {
     .footer-mobile {
         display: none;
@@ -462,18 +373,69 @@ footer {
     }
 }
 
-@media (min-width: 1024px){
-    .hide-on-mobile{
+@media (min-width: 1024px) {
+    .hide-on-mobile {
         display: flex;
     }
-
-    .menu-button{
+    
+    .menu-button {
         display: none;
     }
 
-    nav ul{
+    nav ul {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .first-cont {
+        display: flex;
+    }
+}
+
+@media (min-width:1440px) {
+    .hide-desk {
+        display: none;
+    }
+
+    .pic-desk {
+        display: flex;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+
+    .h-container{
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .first-cont {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .header-container {
+        width: 320px;
+        height: 66px;
     }
 }
