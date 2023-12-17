@@ -13,7 +13,6 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 nav li {
@@ -41,7 +40,7 @@ nav a:hover {
     padding-left: 1rem;
 }
 .logo-achor{
-    padding: 0px;
+    padding: 0;
 }
 .museum-logo img{
 width: 73px;
@@ -148,7 +147,6 @@ footer {
     justify-content: space-between;
 }
 footer img{
-    width: 73px;
     width: 73px;
 }
 

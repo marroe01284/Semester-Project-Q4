@@ -41,7 +41,7 @@ nav a:hover {
     padding-left: 1rem;
 }
 .logo-achor{
-    padding: 0px;
+    padding: 0;
 }
 
 .museum-logo img{
@@ -106,7 +106,7 @@ h1 {
 h3 {
     font-size: 24px;
     font-weight: 700;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     padding-left: .5rem;
     line-height: 46px;
 }
@@ -118,7 +118,7 @@ h2 {
 p {
     font-size: 14px;
     font-weight: 500;
-    line-height: 17px;
+    line-height: 20px;
     padding-top: 4px;
     padding-left: .5rem;
 }
@@ -166,7 +166,7 @@ p {
     flex-direction: column;
 }
 form label{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0 0 0;
 }
 
 .mail,
