@@ -57,7 +57,7 @@ nav a:hover {
     z-index: 999;
     background-color: var(--background-color);
     backdrop-filter: blur(10px);
-    box-shadow: -10px 0 -10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -135,6 +135,11 @@ nav a:hover {
     background-color: var(--button-one);
     color: var(--background-color);
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.view-more-btn button:hover {
+    background-color: var(--botton-one-active);
 }
 
 footer img {
@@ -150,7 +155,7 @@ footer img {
 }
 
 .program-section {
-    padding: 16px 0 16px 0;
+    padding: 10px 0 10px 0;
 }
 
 @media (min-width: 430px) {
@@ -161,6 +166,11 @@ footer img {
     .program-section .program-one .h4-desktop {
         display: none;
     }
+
+}
+
+.mobile-img {
+    margin-bottom: -4px;
 }
 
 @media (min-width: 500px) {
@@ -202,7 +212,7 @@ footer img {
 
 @media (min-width: 740px) {
     .program-section {
-        padding: 8px 24px 40px 24px;
+        padding: 12px 16px 12px 16px;
     }
 
     .program-one h3 {
@@ -211,6 +221,7 @@ footer img {
 
     .program-one .h4-desktop {
         font-size: 1rem;
+        padding: 8px;
     }
 
     .program-one .tickets-button button {
@@ -218,10 +229,10 @@ footer img {
     }
 
     .program-one .tickets-button button {
-        background-color: var(--botton-one-active);
+        background-color: var(--button-one);
         color: white;
         width: 178px;
-        height: 28px;
+        height: 32px;
         border-radius: 8px;
         border: 0;
         font-size: 14px;
@@ -239,9 +250,9 @@ footer img {
     }
 }
 
-.program-header h2 {
+/*.program-header h2 {
     padding: 24px 0 8px 0;
-}
+}*/
 
 .program-one {
     background-color: var(--header-one-color);
@@ -259,26 +270,20 @@ footer img {
     text-align: center;
 }
 
-.program-one h3,
-.program-one h4,
-.program-one button {
-    margin-left: 16px;
-}
-
 @media (min-width: 500px) {
     .program-one h3,
     .program-one h4,
-    .program-one .tickets-button {
+    .program-one .tickets-button button {
         padding: 0;
         margin: 0;
     }
 }
 
 .program-one button {
-    background-color: var(--botton-one-active);
+    background-color: var(--button-one);
     color: white;
-    width: 98px;
-    height: 22px;
+    width: 108px;
+    height: 24px;
     border-radius: 8px;
     border: 0;
     font-size: 10px;
@@ -290,6 +295,11 @@ footer img {
 
 .tickets-button button {
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.tickets-button button:hover {
+    background-color: var(--botton-one-active);
 }
 
 footer {
@@ -449,6 +459,21 @@ footer {
 
     .footer-desktop {
         display: none;
+    }
+
+    .program-one h3,
+    .program-one h4,
+    .program-one, button {
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 500px) {
+    .program-one h3,
+    .program-one h4,
+    .program-one, .tickets-button {
+        margin-left: 0;
+        padding: 8px;
     }
 }
 
