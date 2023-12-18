@@ -6,8 +6,8 @@ Welcome to the GalaxyGenius Museum Website repository! This project showcases an
 Deployed on netlify here: [GalaxyGenius Museum](https://gleeful-daffodil-25334b.netlify.app) 
 
 # Table of Content 🗒️
-- About About
-- Features Features
+- About
+- Features
 - Technology used
 - File Structure
 - Setup
