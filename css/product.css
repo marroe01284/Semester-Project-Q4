@@ -45,8 +45,8 @@ nav a:hover {
 }
 
 .museum-logo img {
-width: 73px;
-height: 73px;
+    width: 73px;
+    height: 73px;
 }
 
 footer img {
@@ -114,17 +114,20 @@ section {
     .tablet-text {
         display: none;
     }
-    .section-one, .desktop-img {
+
+    .section-one,
+    .desktop-img {
         display: none;
     }
 
-    .hide-on-mobile{
+    .hide-on-mobile {
         display: none;
     }
 
     .sidebar {
         width: 100%;
     }
+
     .menu-button {
         display: flex;
     }
@@ -182,17 +185,18 @@ section {
 }
 
 footer {
-    background-color:#E6E6FA;
+    background-color: #E6E6FA;
     color: #000000;
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto auto;
     align-items: start;
     justify-content: space-between;
 }
 
-.left-content, .right-content {
+.left-content,
+.right-content {
     max-width: 300px;
 }
 
@@ -283,34 +287,35 @@ footer {
 }
 
 
-@media (min-width: 1024px){
-.hide-on-mobile {
-    display: flex;
-}
+@media (min-width: 1024px) {
+    .hide-on-mobile {
+        display: flex;
+    }
 
-.menu-button {
-    display: none;
-}
+    .menu-button {
+        display: none;
+    }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 footer {
-    background-color:#E6E6FA;
+    background-color: #E6E6FA;
     color: #000000;
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto auto;
     align-items: start;
     justify-content: space-between;
 }
 
-.left-content, .right-content {
+.left-content,
+.right-content {
     max-width: 300px;
 }
 
@@ -401,7 +406,7 @@ footer {
 }
 
 .footer-desktop {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 32px 0 16px 0;
 }
 
@@ -436,9 +441,12 @@ footer {
     line-height: 1.5;
 }
 
-.tablet-img, .desktop-img {
-    width: 100%; /* Make sure the image takes up the full width of the container */
-    height: 100%; /* Make sure the image takes up the full height of the container */
+.tablet-img,
+.desktop-img {
+    width: 100%;
+    /* Make sure the image takes up the full width of the container */
+    height: 100%;
+    /* Make sure the image takes up the full height of the container */
     object-fit: cover;
 }
 
@@ -459,7 +467,8 @@ footer {
         display: none;
     }
 
-    .desktop-img, .tablet-text {
+    .desktop-img,
+    .tablet-text {
         display: flex;
     }
 }

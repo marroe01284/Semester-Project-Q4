@@ -46,7 +46,7 @@ nav a:hover {
 .museum-logo img {
     width: 73px;
     height: 73px;
-    }
+}
 
 .sidebar {
     position: fixed;
@@ -146,6 +146,13 @@ footer img {
     width: 73px;
 }
 
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
 @media (min-width: 901px) {
     .view-more-btn button {
         font-size: 18px;
@@ -159,7 +166,9 @@ footer img {
 }
 
 @media (min-width: 430px) {
-    .tablet-img, .desktop-img {
+
+    .tablet-img,
+    .desktop-img {
         display: none;
     }
 
@@ -177,6 +186,7 @@ footer img {
     .mobile-img {
         display: none;
     }
+
     .tablet-img {
         display: grid;
         grid-column: 1;
@@ -239,7 +249,7 @@ footer img {
     }
 }
 
-@media  (min-width: 1000px) {
+@media (min-width: 1000px) {
     .tablet-img {
         display: none;
     }
@@ -271,6 +281,7 @@ footer img {
 }
 
 @media (min-width: 500px) {
+
     .program-one h3,
     .program-one h4,
     .program-one .tickets-button button {
@@ -303,17 +314,18 @@ footer img {
 }
 
 footer {
-    background-color:#E6E6FA;
+    background-color: #E6E6FA;
     color: #000000;
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto auto;
     align-items: start;
     justify-content: space-between;
 }
 
-.left-content, .right-content {
+.left-content,
+.right-content {
     max-width: 300px;
 }
 
@@ -404,7 +416,7 @@ footer {
 }
 
 .footer-desktop {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 32px 0 16px 0;
 }
 
@@ -440,13 +452,14 @@ footer {
 }
 
 @media (min-width: 430px) {
-    .hide-on-mobile{
+    .hide-on-mobile {
         display: none;
     }
 
     .sidebar {
         width: 100%;
     }
+
     .menu-button {
         display: flex;
     }
@@ -463,15 +476,18 @@ footer {
 
     .program-one h3,
     .program-one h4,
-    .program-one, button {
+    .program-one,
+    button {
         margin-left: 16px;
     }
 }
 
 @media (min-width: 500px) {
+
     .program-one h3,
     .program-one h4,
-    .program-one, .tickets-button {
+    .program-one,
+    .tickets-button {
         margin-left: 0;
         padding: 8px;
     }
@@ -487,16 +503,16 @@ footer {
     }
 }
 
-@media (min-width: 1024px){
-    .hide-on-mobile{
+@media (min-width: 1024px) {
+    .hide-on-mobile {
         display: flex;
     }
 
-    .menu-button{
+    .menu-button {
         display: none;
     }
 
-    nav ul{
+    nav ul {
         display: flex;
         justify-content: center;
         align-items: center;

@@ -40,13 +40,14 @@ nav a:hover {
     align-items: center;
     padding-left: 1rem;
 }
-.logo-achor{
+
+.logo-achor {
     padding: 0;
 }
 
-.museum-logo img{
-width: 73px;
-height: 73px;
+.museum-logo img {
+    width: 73px;
+    height: 73px;
 }
 
 .sidebar {
@@ -92,7 +93,8 @@ height: 73px;
     background-color: var(--header-two-color);
     border-radius: .5rem;
 }
-button a{
+
+button a {
     text-decoration: none;
     color: white;
 }
@@ -122,12 +124,14 @@ p {
     padding-top: 4px;
     padding-left: .5rem;
 }
-.map-container{
+
+.map-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.find-container{
+
+.find-container {
     background-color: var(--header-two-color);
 }
 
@@ -146,11 +150,13 @@ p {
     align-items: center;
     padding: 6rem 0 1.5rem 0;
 }
-.form-container{
+
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .form-contact {
     display: flex;
     align-items: center;
@@ -160,12 +166,14 @@ p {
     width: 400px;
     border-radius: 8px;
 }
-.email{
+
+.email {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
-form label{
+
+form label {
     margin: 10px 0 0 0;
 }
 
@@ -187,7 +195,8 @@ form label{
     margin-top: 1rem;
     cursor: pointer;
 }
-.send:hover{
+
+.send:hover {
     background-color: var(--button-two-active);
 }
 
@@ -195,7 +204,8 @@ form label{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.con-container{
+
+.con-container {
     width: 320px;
     height: 66px;
     background-color: var(--header-two-color);
@@ -243,9 +253,11 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
-.start-chat:hover{
+
+.start-chat:hover {
     background-color: var(--button-two-active);
 }
+
 footer {
     background-color: var(--header-two-color);
     color: #000000;
@@ -256,10 +268,12 @@ footer {
     align-items: start;
     justify-content: space-between;
 }
-footer img{
+
+footer img {
     width: 73px;
     height: 73px;
 }
+
 .left-content,
 .right-content {
     max-width: 300px;
@@ -350,17 +364,21 @@ footer img{
     padding-top: 32px;
     font-size: 14px;
 }
-.hide-mobile{
-display: none;
-}
-.hide-mo-tab{
+
+.hide-mobile {
     display: none;
 }
-.chat-text{
+
+.hide-mo-tab {
     display: none;
 }
+
+.chat-text {
+    display: none;
+}
+
 .footer-desktop {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 32px 0 16px 0;
 }
 
@@ -414,10 +432,12 @@ display: none;
         justify-content: flex-end;
         align-items: center;
     }
-    .footer-desktop{
+
+    .footer-desktop {
         display: none;
     }
-    .form-contact{
+
+    .form-contact {
         height: 450px;
     }
 }
@@ -453,23 +473,31 @@ display: none;
 
     .form-contact {
         width: 360px;
-        height: 450px;
+        height: 490px;
         border-radius: 8px;
     }
-.send{
-    margin-top: 2rem;
-}
+
+    form textarea {
+        height: 198px;
+    }
+
+    .send {
+        margin-top: 2rem;
+    }
+
     .chat {
         width: 360px;
-        height: 450px;
+        height: 490px;
         justify-content: center;
         background-color: var(--header-two-color);
         border-radius: 8px;
     }
-    .chat-tex{
+
+    .chat-tex {
         display: none;
     }
-    .chat-text{
+
+    .chat-text {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -477,30 +505,37 @@ display: none;
         flex-direction: column;
         width: 200px;
     }
-    .hide-tablet{
+
+    .hide-tablet {
         display: none;
     }
-    .hide-mobile{
+
+    .hide-mobile {
         display: flex;
         justify-content: center;
         border-radius: 8px;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
         line-height: 49px;
     }
-    h2{
+
+    h2 {
         font-size: 2rem;
     }
-    .header-container{
-    width: 320px;
-    height: 66px;
+
+    .header-container {
+        width: 320px;
+        height: 66px;
     }
-    .con-container{
+
+    .con-container {
         width: 320px;
         height: 66px;
     }
 }
+
 @media (min-width: 900px) {
     .footer-mobile {
         display: none;
@@ -526,18 +561,17 @@ display: none;
         justify-content: center;
         align-items: center;
     }
-.chat-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
+
+    .chat-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
-@media (min-width: 1280px) {
-    
-}
+@media (min-width: 1280px) {}
 
 /*Xtra large screens*/
 @media (min-width:1440px) {
@@ -560,72 +594,91 @@ display: none;
         height: 728px;
         border-radius: 8px;
     }
-    .hide-mo-tab{
+
+    .hide-mo-tab {
         display: flex;
         justify-content: center;
         border-radius: 8px;
         padding-bottom: 2rem;
     }
-    .hide-mobile{
+
+    .hide-mobile {
         display: none;
     }
-    h1{
+
+    h1 {
         font-size: 32px;
         line-height: 49px;
     }
-    h2{
+
+    h2 {
         font-size: 32px;
     }
-    h3{
+
+    h3 {
         font-size: 24px;
     }
-    p{
+
+    p {
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
     }
-    .header-container{
-    width: 320px;
-    height: 66px;
-    
+
+    .header-container {
+        width: 320px;
+        height: 66px;
+
     }
 
-    .con-container{
+    .con-container {
         width: 320px;
         height: 66px;
     }
-    .chat{
+
+    .chat {
         width: 610px;
         height: 646px;
         justify-content: flex-start;
     }
-    .start-chat{
+
+    .start-chat {
         width: 171px;
         height: 47px;
         font-size: 1.5rem;
-        margin-top: 77px;
+        margin-top: 90px;
     }
-    .form-contact{
+
+    .form-contact {
         width: 610px;
         height: 646px;
     }
-    input{
+
+    form textarea {
+        height: 220px;
+    }
+
+    input {
         width: 412px;
         height: 55px;
     }
-    textarea{
+
+    textarea {
         width: 412px;
         height: 220px;
     }
-    label{
+
+    label {
         font-size: 24px;
     }
-    .send{
+
+    .send {
         width: 171px;
         height: 47px;
         font-size: 24px;
     }
-    .chat-text{
+
+    .chat-text {
         width: 300px;
         text-align: center;
         display: flex;
@@ -633,7 +686,8 @@ display: none;
         justify-content: center;
         flex-direction: column;
     }
-    .chat-tex{
+
+    .chat-tex {
         display: none;
     }
 }
