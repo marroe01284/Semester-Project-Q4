@@ -67,3 +67,6 @@ The museum website should be informative,appealing, engaging and responsive, tha
   Initiating the website design phase, we drew inspiration from various museum websites and utilized Mobbin for additional insights. After reaching a consensus on the design, we invested time in sketching a mid-fidelity version for clarity. Task allocation facilitated the commencement of website design, ensuring alignment with our envisioned outcome.
   ## Coding and GitHub:
   We created a repository and established a branch for HTML and CSS setup. Subsequently, we incorporated all images with the correct dimensions as per the specified criteria. Tasks were distributed across three pages each, with Tom handling the footer, index, product, and program pages, while Marius focused on the nav-bar, tickets, about, and contact pages. The website underwent     testing using Lighthouse, achieving a commendable overall score. Project deployment on Netlify was followed by thorough testing on various devices and browsers, including desktop, phones, and tablets.
+
+  ## progressing
+  
