@@ -92,6 +92,10 @@ nav a:hover {
     border-radius: 0.5rem;
 }
 
+.program-div {
+    display: contents;
+}
+
 .main-section {
     position: relative;
     width: 100%;
@@ -175,6 +179,18 @@ button a {
     .footer-desktop {
         display: none;
     }
+
+    .tablet-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .program-one .h4-desktop {
+        display: none;
+    }
 }
 
 @media (min-width: 901px) {
@@ -189,8 +205,8 @@ button a {
     padding: 10px 0 10px 0;
 }
 
-@media (min-width: 430px) {
 
+@media (min-width: 430px) {
     .tablet-img,
     .desktop-img {
         display: none;
@@ -284,12 +300,9 @@ button a {
     }
 }
 
-/*.program-header h2 {
-    padding: 24px 0 8px 0;
-}*/
-
 .program-one {
     background-color: var(--header-one-color);
+    padding-left: 8px;
 }
 
 .program-one h3 {
@@ -297,7 +310,7 @@ button a {
 }
 
 .program-one h4 {
-    padding: 4px 0 4px 0;
+    padding: 8px 0 8px 0;
     color: rgba(0, 0, 0, 0.50);
     font-size: 14px;
     display: flex;
@@ -498,12 +511,13 @@ footer {
         display: none;
     }
 
-    .program-one h3,
+
+    /*.program-one h3,
     .program-one h4,
     .program-one,
     button {
-        margin-left: 16px;
-    }
+        padding-left: 16px;
+    }*/
 }
 
 @media (min-width: 500px) {
