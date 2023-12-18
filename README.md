@@ -68,5 +68,24 @@ The museum website should be informative,appealing, engaging and responsive, tha
   ## Coding and GitHub:
   We created a repository and established a branch for HTML and CSS setup. Subsequently, we incorporated all images with the correct dimensions as per the specified criteria. Tasks were distributed across three pages each, with Tom handling the footer, index, product, and program pages, while Marius focused on the nav-bar, tickets, about, and contact pages. The website underwent     testing using Lighthouse, achieving a commendable overall score. Project deployment on Netlify was followed by thorough testing on various devices and browsers, including desktop, phones, and tablets.
 
-  ## progressing
+  # Improvements 🔧
+  Key Improvements:
+
+ - Dedicated pages for each category.
+ - Introduction of animations on select pages.
+ - Integration of JavaScript functionality and a newsletter feature.
+ - Inclusion of links to social media platforms.
+ - Enrichment of content on the main page.
+ - Implementation of ticket sales and a calendar feature.
+  These enhancements will contribute to a more dynamic and engaging user experience, aligning with our commitment to continuous improvement.
+
+
+
+
+
+
+
+  # Reflection
+  We're always trying to make the design better since we think it's where we can grow the most. It's easy to get inspired, but things get a bit tricky when you have to follow all these museum rules. Doing both the designing and coding in one big project makes it feel like it's really ours, and it's been a pretty good learning experience.
+  Moving forward, I am committed to refining this project to ensure heightened interactivity and accessibility. I plan to enhance the implementation of JavaScript through a more comprehensive understanding of its capabilities. Additionally, I aim to expand the content by adding more pages to the existing categories and links.
   
