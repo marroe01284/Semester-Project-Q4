@@ -39,12 +39,14 @@ nav a:hover {
     align-items: center;
     padding-left: 1rem;
 }
-.logo-achor{
+
+.logo-achor {
     padding: 0;
 }
-.museum-logo img{
-width: 73px;
-height: 73px;
+
+.museum-logo img {
+    width: 73px;
+    height: 73px;
 }
 
 .sidebar {
@@ -146,7 +148,8 @@ footer {
     align-items: start;
     justify-content: space-between;
 }
-footer img{
+
+footer img {
     width: 73px;
 }
 
@@ -242,7 +245,7 @@ footer img{
 }
 
 .footer-desktop {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 32px 0 16px 0;
 }
 
@@ -296,6 +299,7 @@ footer img{
         justify-content: flex-end;
         align-items: center;
     }
+
     .footer-desktop {
         display: none;
     }
@@ -341,12 +345,12 @@ footer img{
         width: 347px;
         height: 586px;
     }
-    
+
     .ticket-info-one {
         width: 347px;
         height: 586px;
     }
-    
+
 }
 
 @media (min-width: 900px) {
@@ -358,6 +362,7 @@ footer img{
         display: grid;
     }
 }
+
 /*Large screens*/
 @media (min-width: 1024px) {
     .hide-on-mobile {
@@ -410,7 +415,8 @@ footer img{
         width: 600px;
         height: 888px;
     }
-    footer p{
+
+    footer p {
         font-size: 14px;
     }
 }
@@ -455,7 +461,8 @@ footer img{
     .container {
         width: 100%;
     }
-    footer p{
+
+    footer p {
         font-size: 14px;
     }
 }
