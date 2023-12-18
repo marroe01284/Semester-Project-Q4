@@ -280,6 +280,30 @@ footer img {
     line-height: 1.5;
 }
 
+@media (min-width: 380px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .menu-button {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+}
+
 /*Small screens*/
 @media (min-width: 430px) {
     .hide-on-mobile {
