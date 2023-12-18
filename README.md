@@ -1,5 +1,4 @@
-# Semester project 1 
-##GalaxyGenius Museum Website 🏛️
+# Semester project 1           GalaxyGenius Museum Website 🏛️
 this was our first semester project for the first semester of front-end development at Noroff technological School. 
 Welcome to the GalaxyGenius Museum Website repository! This project showcases an interactive and educational platform designed for a museum dedicated to all human beeings who wants to explore the wonders of the world.
 Deployed on netlify here: [GalaxyGenius Museum](https://gleeful-daffodil-25334b.netlify.app) 
