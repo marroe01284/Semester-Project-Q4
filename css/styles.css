@@ -148,6 +148,14 @@ footer img {
     .footer-desktop {
         display: none;
     }
+
+    .discover-grid {
+        grid-template-columns: repeat(auto-fill, minmax(141px, 1fr));
+    }
+
+    .whats-new-grid {
+        grid-template-columns: repeat(auto-fill, minmax(137px, 1fr));
+    }
 }
 
 @media (min-width: 430px) {
@@ -182,6 +190,10 @@ footer img {
 @media (min-width: 500px) {
     .whats-new-grid {
         grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+    }
+
+    .discover-grid {
+        grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
     }
 }
 
