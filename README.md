@@ -12,6 +12,7 @@ Deployed on netlify here: [GalaxyGenius Museum](https://gleeful-daffodil-25334b.
 - File Structure
 - Setup
 - Step-by-Step how we did it
+- Improvements
 - Reflection
 
   # About 📔
