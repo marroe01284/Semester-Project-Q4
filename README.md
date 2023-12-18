@@ -2,9 +2,9 @@
 this was our first semester project for the first semester of front-end development at Noroff technological School. 
 Welcome to the GalaxyGenius Museum Website repository! This project showcases an interactive and educational platform designed for a museum dedicated to all human beeings who wants to explore the wonders of the world.
 # Table of Content 🗒️
-- [About](#About)
-- [Features](#Features)
-- [Technology used](Technologyused)
+- [About](#About📔)
+- [Features](#Features🫵)
+- [Technology used](Technologyused⚙️)
 - File Structure
 - Setup
 - Step-by-Step how we did it
