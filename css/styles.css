@@ -149,6 +149,10 @@ footer img {
         display: none;
     }
 
+    .footer-mobile {
+        font-size: 14px;
+    }
+
     .discover-grid {
         grid-template-columns: repeat(auto-fill, minmax(141px, 1fr));
     }
@@ -181,6 +185,10 @@ footer img {
         display: none;
     }
 
+    .footer-mobile {
+        font-size: 1rem;
+    }
+
     .whats-new-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
@@ -193,13 +201,13 @@ footer img {
     }
 
     .discover-grid {
-        grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(172px, 1fr));
     }
 }
 
 @media (min-width: 634px) {
     .discover-grid {
-        grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 
     .footer-desktop {
@@ -470,7 +478,7 @@ footer {
 }
 
 .span-one svg {
-    margin: 4px 8px 0 0;
+    margin: 4px 4px 0 0;
 }
 
 .span-one i:last-child {

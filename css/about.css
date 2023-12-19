@@ -111,7 +111,7 @@ h1 {
 h3 {
     font-size: 24px;
     font-weight: 700;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: 1rem;
 }
 
@@ -125,13 +125,19 @@ p {
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
-    padding-top: 4px;
+    padding: 8px 0 8px 16px;
+    /*
     padding-left: 1rem;
+    */
 }
 
 .social {
     padding-top: .5rem;
     padding-left: 1rem;
+}
+
+.social i {
+    margin-right: 8px;
 }
 
 .contact {
@@ -238,6 +244,10 @@ footer {
     font-size: 20px;
 }
 
+.span-one svg {
+    margin: 4px 4px 0 0;
+}
+
 .span-one i {
     margin-right: 4px;
 }
@@ -314,6 +324,10 @@ footer {
     .footer-desktop {
         display: none;
     }
+
+    .footer-mobile {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 430px) {
@@ -337,6 +351,10 @@ footer {
 
     .footer-desktop {
         display: none;
+    }
+
+    .footer-mobile {
+        font-size: 1rem;
     }
 }
 
