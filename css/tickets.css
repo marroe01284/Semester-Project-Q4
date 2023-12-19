@@ -225,6 +225,10 @@ footer img {
     font-size: 20px;
 }
 
+.span-one svg {
+    margin: 4px 4px 0 0;
+}
+
 .span-one i {
     margin-right: 4px;
 }
@@ -302,9 +306,13 @@ footer img {
     .footer-desktop {
         display: none;
     }
+
+    .footer-mobile {
+        font-size: 14px;
+    }
 }
 
-/*Small screens*/
+
 @media (min-width: 430px) {
     .hide-on-mobile {
         display: none;
@@ -328,9 +336,11 @@ footer img {
         display: none;
     }
 
+    .footer-mobile {
+        font-size: 1rem;
+    }
 }
 
-/*Medium screens*/
 @media (min-width: 744px) {
     .media-container {
         display: flex;
@@ -387,7 +397,6 @@ footer img {
     }
 }
 
-/*Large screens*/
 @media (min-width: 1024px) {
     .hide-on-mobile {
         display: flex;

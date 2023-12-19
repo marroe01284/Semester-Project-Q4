@@ -180,6 +180,10 @@ button a {
         display: none;
     }
 
+    .footer-mobile {
+        font-size: 14px;
+    }
+
     .tablet-img {
         display: none;
     }
@@ -433,6 +437,10 @@ footer {
     font-size: 20px;
 }
 
+.span-one svg {
+    margin: 4px 4px 0 0;
+}
+
 .span-one i {
     margin-right: 4px;
 }
@@ -511,13 +519,9 @@ footer {
         display: none;
     }
 
-
-    /*.program-one h3,
-    .program-one h4,
-    .program-one,
-    button {
-        padding-left: 16px;
-    }*/
+    .footer-mobile {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 500px) {

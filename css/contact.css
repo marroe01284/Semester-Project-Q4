@@ -346,6 +346,10 @@ footer img {
     font-size: 20px;
 }
 
+.span-one svg {
+    margin: 4px 4px 0 0;
+}
+
 .span-one i {
     margin-right: 4px;
 }
@@ -412,6 +416,7 @@ footer img {
 .footer-desktop div p {
     line-height: 1.5;
 }
+
 @media (min-width: 380px) {
     .hide-on-mobile {
         display: none;
@@ -435,11 +440,16 @@ footer img {
         display: none;
     }
 
+    .footer-mobile {
+        font-size: 14px;
+    }
+
     .form-contact {
         height: 430px;
     }
 }
-/*Small screens*/
+
+
 @media (min-width: 430px) {
     .hide-on-mobile {
         display: none;
@@ -463,12 +473,15 @@ footer img {
         display: none;
     }
 
+    .footer-mobile {
+        font-size: 1rem;
+    }
+
     .form-contact {
         height: 450px;
     }
 }
 
-/*Medium screens*/
 @media (min-width: 744px) {
     .transport-container {
         display: flex;
