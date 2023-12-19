@@ -227,6 +227,7 @@ button a {
     width: 100%;
 }
 
+
 @media (min-width: 500px) {
     .mobile-img {
         display: none;
