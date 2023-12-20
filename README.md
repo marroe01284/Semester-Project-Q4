@@ -71,8 +71,7 @@ The museum website should be informative,appealing, engaging and responsive, tha
 
   # Improvements 🔧
   Key Improvements:
-
- - Dedicated pages for each category.
+  
  - Introduction of animations on select pages.
  - Integration of JavaScript functionality and a newsletter feature.
  - Inclusion of links to social media platforms.
