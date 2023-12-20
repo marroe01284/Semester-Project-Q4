@@ -201,7 +201,10 @@ section {
 }
 
 .section-one img {
-    border-radius: 8px 0 0 8px;
+    border-radius: 8px 0px 0px 8px;
+}
+.section-two img{
+    border-radius: 0px 8px 8px 0px;
 }
 
 .section-two-container {
@@ -500,11 +503,14 @@ footer {
     line-height: 1.5;
 }
 
-.tablet-img,
-.desktop-img, .mobile-img {
+.tablet-img, .mobile-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.desktop-img{
+    width: 336px;
+    height: 500px;
 }
 
 @media (min-width: 900px) {
